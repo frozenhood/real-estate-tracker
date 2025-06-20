@@ -26,7 +26,7 @@ def fetch_current_ads():
         url = title_tag['href'] if title_tag else None
         title = title_tag.text.strip() if title_tag else None
         price = price_tag.text.strip() if price_tag else None
-        location = location_tag.text(separator=' | ', strip=True) if location_tag else None
+        location = location_tag.get_text(separator=' | ', strip=True) if location_tag else None
 
         if url:
             full_url = f"https://www.halooglasi.com{url}"
