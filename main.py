@@ -8,37 +8,40 @@ FILTER_URL = "https://www.halooglasi.com/nekretnine/prodaja-kuca?grad_id_l-lokac
 DATA_FILE = Path("urls.json")
 REMOVED_FILE = Path("removed_urls.json")
 
-def fetch_current_urls():
+def fetch_current_ads():
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
 
-    try:
-        response = requests.get(FILTER_URL, headers=headers, timeout=10)
-        response.raise_for_status()
-    except requests.RequestException as e:
-        print(f"Ошибка при загрузке страницы: {e}")
-        return set()
+    response = requests.get(FILTER_URL, headers=headers, timeout=10)
+    response.raise_for_status()
 
     soup = BeautifulSoup(response.text, 'html.parser')
 
-    # Find all links to see if BeautifulSoup can see them
-    all_links = soup.find_all('a')
-    print(f"Found links <a>: {len(all_links)}")
-    
-    # Print first 100 links
-    for a in all_links[:100]:
-        print(a)
+    ads = soup.find_all('div', class_='product-item')
 
-    # Check if your selector is working
-    selected = soup.select('a.product-title')
-    print(f"Links with selector 'a.product-title': {len(selected)}")
-    
-    for a in selected:
-        print(a)
+    results = []
 
-    urls = { a['href'] for a in selected if a.has_attr('href') }
-    return urls
+    for ad in ads:
+        title_tag = ad.select_one('h3.product-title a')
+        price_tag = ad.select_one('.central-feature i')
+        location_tag = ad.select_one('ul.subtitle-places')
+
+        url = title_tag['href'] if title_tag else None
+        title = title_tag.text.strip() if title_tag else None
+        price = price_tag.text.strip() if price_tag else None
+        location = location_tag.text(separator=' | ', strip=True) if location_tag else None
+
+        if url:
+            full_url = f"https://www.halooglasi.com{url}"
+            results.append({
+                'url': full_url,
+                'title': title,
+                'price': price,
+                'location': location,
+            })
+
+    return results
 
 def load_previous_urls():
     if DATA_FILE.exists():
@@ -51,19 +54,10 @@ def save_urls(urls, path):
         json.dump(list(urls), f, indent=2)
 
 def main():
-    current_urls = set(fetch_current_urls())
-    previous_urls = load_previous_urls()
-    removed = previous_urls - current_urls
-
-    print(f"Found {len(removed)} removed links")
-
-    save_urls(current_urls, DATA_FILE)
-
-    if removed:
-        print("\nRemoved links:")
-        for url in removed:
-            print(url)
-        save_urls(removed, REMOVED_FILE)
+    ads = fetch_current_ads()
+    print(f"Найдено {len(ads)} объявлений:\n")
+    for ad in ads:
+        print(f"{ad['price']} | {ad['location']}\n{ad['title']}\n{ad['url']}\n")
 
 if __name__ == "__main__":
     main()
