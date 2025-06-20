@@ -1,8 +1,13 @@
 import requests
 from bs4 import BeautifulSoup
+import json
+import os
+from datetime import datetime
 
 FILTER_URL = "https://www.halooglasi.com/nekretnine/prodaja-kuca?grad_id_l-lokacija_id_l-mikrolokacija_id_l=40381%2C528336%2C529392%2C530392%2C531045%2C40761%2C35237&cena_d_to=140000&cena_d_unit=4"
-
+DATA_DIR = "data"
+REPORT_DIR = "reports"
+HISTORY_FILE = "price-history.json"
 
 def fetch_current_ads():
     headers = {
@@ -13,7 +18,6 @@ def fetch_current_ads():
     response.raise_for_status()
 
     soup = BeautifulSoup(response.text, 'html.parser')
-
     ads = soup.find_all('div', class_='product-item')
 
     results = []
@@ -23,27 +27,115 @@ def fetch_current_ads():
         price_tag = ad.select_one('.central-feature i')
         location_tag = ad.select_one('ul.subtitle-places')
 
+        publish_date_tag = ad.select_one('span.publish-date')
+        advertiser_tag = ad.select_one('span[data-field-name="oglasivac_nekretnine_s"]')
+        price_by_surface_tag = ad.select_one('div.price-by-surface span')
+        ad_id = ad.get('data-id')
+
         url = title_tag['href'] if title_tag else None
-        title = title_tag.text.strip() if title_tag else None
-        price = price_tag.text.strip() if price_tag else None
+        title = title_tag.get_text(strip=True) if title_tag else None
+        price = price_tag.get_text(strip=True) if price_tag else None
         location = location_tag.get_text(separator=' | ', strip=True) if location_tag else None
+
+        publish_date = publish_date_tag.get_text(strip=True) if publish_date_tag else None
+        advertiser = advertiser_tag.get_text(strip=True) if advertiser_tag else None
+        price_by_surface = price_by_surface_tag.get_text(strip=True) if price_by_surface_tag else None
 
         if url:
             full_url = f"https://www.halooglasi.com{url}"
             results.append({
+                'id': ad_id,
                 'url': full_url,
                 'title': title,
                 'price': price,
+                'price_by_surface': price_by_surface,
                 'location': location,
+                'publish_date': publish_date,
+                'advertiser': advertiser
             })
 
     return results
 
-def main():
-    ads = fetch_current_ads()
-    print(f"Found {len(ads)} ads:\n")
-    for ad in ads:
-        print(f"{ad['price']} | {ad['location']}\n{ad['title']}\n{ad['url']}\n")
+
+def save_daily_snapshot(ads):
+    date_str = datetime.now().strftime("%Y-%m-%d")
+    os.makedirs(DATA_DIR, exist_ok=True)
+    filename = os.path.join(DATA_DIR, f"{date_str}.json")
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(ads, f, indent=2, ensure_ascii=False)
+    return filename
+
+
+def load_previous_snapshot():
+    if not os.path.exists(DATA_DIR):
+        return []
+    files = sorted(os.listdir(DATA_DIR))
+    if len(files) < 2:
+        return []
+    with open(os.path.join(DATA_DIR, files[-2]), "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def load_price_history():
+    if os.path.exists(HISTORY_FILE):
+        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_price_history(history):
+    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+        json.dump(history, f, indent=2, ensure_ascii=False)
+
+
+def generate_report(current_ads, previous_ads):
+    current_dict = {ad['id']: ad for ad in current_ads}
+    previous_dict = {ad['id']: ad for ad in previous_ads}
+
+    added = [current_dict[k] for k in current_dict.keys() - previous_dict.keys()]
+    removed = [previous_dict[k] for k in previous_dict.keys() - current_dict.keys()]
+
+    price_changed = []
+    history = load_price_history()
+    date_str = datetime.now().strftime("%Y-%m-%d")
+
+    for ad_id in current_dict.keys() & previous_dict.keys():
+        current_ad = current_dict[ad_id]
+        previous_ad = previous_dict[ad_id]
+        if current_ad['price'] != previous_ad['price']:
+            price_changed.append({
+                "id": ad_id,
+                "url": current_ad['url'],
+                "title": current_ad['title'],
+                "old_price": previous_ad['price'],
+                "new_price": current_ad['price']
+            })
+
+        # Update price history
+        if ad_id not in history:
+            history[ad_id] = []
+        if not history[ad_id] or history[ad_id][-1]['price'] != current_ad['price']:
+            history[ad_id].append({"date": date_str, "price": current_ad['price']})
+
+    save_price_history(history)
+
+    report = {
+        "added": added,
+        "removed": removed,
+        "price_changed": price_changed
+    }
+
+    os.makedirs(REPORT_DIR, exist_ok=True)
+    report_file = os.path.join(REPORT_DIR, f"{date_str}-changes.json")
+    with open(report_file, "w", encoding="utf-8") as f:
+        json.dump(report, f, indent=2, ensure_ascii=False)
+
+    return report_file
+
 
 if __name__ == "__main__":
-    main()
+    current_ads = fetch_current_ads()
+    previous_ads = load_previous_snapshot()
+    save_daily_snapshot(current_ads)
+    report_file = generate_report(current_ads, previous_ads)
+    print(f"Report saved: {report_file}")
