@@ -9,13 +9,27 @@ DATA_FILE = Path("urls.json")
 REMOVED_FILE = Path("removed_urls.json")
 
 def fetch_current_urls():
-    response = requests.get(FILTER_URL)
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+
+    try:
+        response = requests.get(FILTER_URL, headers=headers, timeout=10)
+        response.raise_for_status()
+    except requests.RequestException as e:
+        print(f"Error loading page: {e}")
+        return set()
+
+    # Print first 1000 characters of HTML to see what we get
+    print(response.text[:1000])
+
     soup = BeautifulSoup(response.text, 'html.parser')
-    return [
+    urls = {
         a['href']
         for a in soup.select('a.product-title')
         if a.has_attr('href')
-    ]
+    }
+    return urls
 
 def load_previous_urls():
     if DATA_FILE.exists():
@@ -32,12 +46,12 @@ def main():
     previous_urls = load_previous_urls()
     removed = previous_urls - current_urls
 
-    print(f"Найдено {len(removed)} удалённых ссылок")
+    print(f"Found {len(removed)} removed links")
 
     save_urls(current_urls, DATA_FILE)
 
     if removed:
-        print("\nУдалённые ссылки:")
+        print("\nRemoved links:")
         for url in removed:
             print(url)
         save_urls(removed, REMOVED_FILE)
