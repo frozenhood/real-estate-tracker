@@ -1,12 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-import json
-from pathlib import Path
 
 FILTER_URL = "https://www.halooglasi.com/nekretnine/prodaja-kuca?grad_id_l-lokacija_id_l-mikrolokacija_id_l=40381%2C528336%2C529392%2C530392%2C531045%2C40761%2C35237&cena_d_to=140000&cena_d_unit=4"
 
-DATA_FILE = Path("urls.json")
-REMOVED_FILE = Path("removed_urls.json")
 
 def fetch_current_ads():
     headers = {
@@ -43,19 +39,9 @@ def fetch_current_ads():
 
     return results
 
-def load_previous_urls():
-    if DATA_FILE.exists():
-        with open(DATA_FILE, 'r') as f:
-            return set(json.load(f))
-    return set()
-
-def save_urls(urls, path):
-    with open(path, 'w') as f:
-        json.dump(list(urls), f, indent=2)
-
 def main():
     ads = fetch_current_ads()
-    print(f"Найдено {len(ads)} объявлений:\n")
+    print(f"Found {len(ads)} ads:\n")
     for ad in ads:
         print(f"{ad['price']} | {ad['location']}\n{ad['title']}\n{ad['url']}\n")
 
