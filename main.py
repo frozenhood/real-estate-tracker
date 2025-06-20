@@ -26,8 +26,8 @@ def fetch_current_urls():
     all_links = soup.find_all('a')
     print(f"Found links <a>: {len(all_links)}")
     
-    # Print first 10 links
-    for a in all_links[:10]:
+    # Print first 100 links
+    for a in all_links[:100]:
         print(a)
 
     # Check if your selector is working
