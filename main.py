@@ -17,18 +17,27 @@ def fetch_current_urls():
         response = requests.get(FILTER_URL, headers=headers, timeout=10)
         response.raise_for_status()
     except requests.RequestException as e:
-        print(f"Error loading page: {e}")
+        print(f"Ошибка при загрузке страницы: {e}")
         return set()
 
-    # Print first 1000 characters of HTML to see what we get
-    print(response.text[:1000])
-
     soup = BeautifulSoup(response.text, 'html.parser')
-    urls = {
-        a['href']
-        for a in soup.select('a.product-title')
-        if a.has_attr('href')
-    }
+
+    # Find all links to see if BeautifulSoup can see them
+    all_links = soup.find_all('a')
+    print(f"Found links <a>: {len(all_links)}")
+    
+    # Print first 10 links
+    for a in all_links[:10]:
+        print(a)
+
+    # Check if your selector is working
+    selected = soup.select('a.product-title')
+    print(f"Links with selector 'a.product-title': {len(selected)}")
+    
+    for a in selected:
+        print(a)
+
+    urls = { a['href'] for a in selected if a.has_attr('href') }
     return urls
 
 def load_previous_urls():
