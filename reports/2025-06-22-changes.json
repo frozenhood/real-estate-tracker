@@ -1,0 +1,107 @@
+{
+  "added": [
+    {
+      "id": "5425645473688",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/idealna-kuca-za-odmor-i-uzivanje-id1997/5425645473688?kid=1",
+      "title": "Idealna kuća za odmor i uživanje ID#1997",
+      "price": "90.000 €",
+      "price_by_surface": "600 €/m2",
+      "location": "Beograd | Opština Barajevo | Glumčevo brdo | Glumčevo brdo",
+      "publish_date": "21.06.2025.",
+      "advertiser": "Agencija"
+    },
+    {
+      "id": "5425645678567",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vrcin-porodicni-dom/5425645678567?kid=1",
+      "title": "Vrčin porodični dom",
+      "price": "89.000 €",
+      "price_by_surface": "795 €/m2",
+      "location": "Beograd | Opština Grocka | Vrčin",
+      "publish_date": "21.06.2025.",
+      "advertiser": "Agencija"
+    },
+    {
+      "id": "5425644428712",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/baric-kuca-sa-dva-stana/5425644428712?kid=1",
+      "title": "Barič, kuća sa dva stana",
+      "price": "110.000 €",
+      "price_by_surface": "500 €/m2",
+      "location": "Beograd | Opština Obrenovac | Barič | Vuka Karadžića",
+      "publish_date": "21.06.2025.",
+      "advertiser": "Agencija"
+    },
+    {
+      "id": "5425645365978",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/bozdarevac-novija-kuca-na-9-ari-sa-garazom/5425645365978?kid=1",
+      "title": "Boždarevac, novija kuća na 9 ari sa garažom ..",
+      "price": "69.000 €",
+      "price_by_surface": "519 €/m2",
+      "location": "Beograd | Opština Barajevo | Boždarevac | Obrada Lazića",
+      "publish_date": "21.06.2025.",
+      "advertiser": "Agencija"
+    },
+    {
+      "id": "5425645325154",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-ovci-na-sprat-sa-dvoristem-i-garazom/5425645325154?kid=1",
+      "title": "Kuća u Ovči na sprat, sa dvorištem i garažom",
+      "price": "115.000 €",
+      "price_by_surface": "833 €/m2",
+      "location": "Beograd | Opština Palilula | Ovča | Njegoševa",
+      "publish_date": "21.06.2025.",
+      "advertiser": "Vlasnik"
+    }
+  ],
+  "removed": [
+    {
+      "id": "5425644801446",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-novim-banovcima---radnicka/5425644801446?kid=1",
+      "title": "Kuća u Novim Banovcima - Radnička",
+      "price": "132.000 €",
+      "price_by_surface": "600 €/m2",
+      "location": "Stara Pazova | Okolno mesto | Novi Banovci | Radnička",
+      "publish_date": "20.06.2025.",
+      "advertiser": "Agencija"
+    },
+    {
+      "id": "5425644650663",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/brdjanska-surduk-stara-pazova-id5214/5425644650663?kid=1",
+      "title": "Brđanska, Surduk, Stara Pazova ID#5214",
+      "price": "70.000 €",
+      "price_by_surface": "300 €/m2",
+      "location": "Stara Pazova | Okolno mesto | Surduk | Brđanska",
+      "publish_date": "20.06.2025.",
+      "advertiser": "Agencija"
+    },
+    {
+      "id": "5425645673641",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/stara-pazova-kuca-200m2/5425645673641?kid=1",
+      "title": "Stara Pazova kuća 200m2",
+      "price": "105.000 €",
+      "price_by_surface": "525 €/m2",
+      "location": "Stara Pazova | Gradska lokacija | Širi centar",
+      "publish_date": "20.06.2025.",
+      "advertiser": "Agencija"
+    },
+    {
+      "id": "5425645157022",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/barajevo-lipovica-31-oktobra-kuca-pr-1-ptk-n/5425645157022?kid=1",
+      "title": "Barajevo, Lipovica, 31. oktobra, kuća PR +1 +PTK n",
+      "price": "130.000 €",
+      "price_by_surface": "418 €/m2",
+      "location": "Beograd | Opština Barajevo | Lipovica | Lipovički put",
+      "publish_date": "19.06.2025.",
+      "advertiser": "Agencija"
+    },
+    {
+      "id": "5425645674726",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/spratna-kuca-sa-2-stana/5425645674726?kid=1",
+      "title": "Spratna kuća sa 2 stana",
+      "price": "135.000 €",
+      "price_by_surface": "675 €/m2",
+      "location": "Stara Pazova | Okolno mesto | Nova Pazova | Karadjordjeva",
+      "publish_date": "20.06.2025.",
+      "advertiser": "Vlasnik"
+    }
+  ],
+  "price_changed": []
+}
