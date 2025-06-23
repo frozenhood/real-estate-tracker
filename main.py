@@ -10,6 +10,7 @@ DATA_DIR = "data"
 REPORT_DIR = "reports"
 HISTORY_FILE = "price-history.json"
 
+
 def fetch_current_ads():
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -27,6 +28,8 @@ def fetch_current_ads():
         title_tag = ad.select_one('h3.product-title a')
         price_tag = ad.select_one('.central-feature i')
         location_tag = ad.select_one('ul.subtitle-places')
+        location_parts = location_tag.find_all('li') if location_tag else []
+        location_full = " | ".join([li.get_text(strip=True) for li in location_parts]) if location_parts else None
 
         publish_date_tag = ad.select_one('span.publish-date')
         advertiser_tag = ad.select_one('span[data-field-name="oglasivac_nekretnine_s"]')
@@ -36,7 +39,6 @@ def fetch_current_ads():
         url = title_tag['href'] if title_tag else None
         title = title_tag.get_text(strip=True) if title_tag else None
         price = price_tag.get_text(strip=True) if price_tag else None
-        location = location_tag.get_text(separator=' | ', strip=True) if location_tag else None
 
         publish_date = publish_date_tag.get_text(strip=True) if publish_date_tag else None
         advertiser = advertiser_tag.get_text(strip=True) if advertiser_tag else None
@@ -50,12 +52,13 @@ def fetch_current_ads():
                 'title': title,
                 'price': price,
                 'price_by_surface': price_by_surface,
-                'location': location,
+                'location': location_full,
                 'publish_date': publish_date,
                 'advertiser': advertiser
             })
 
     return results
+
 
 
 def save_daily_snapshot(ads):
@@ -65,6 +68,7 @@ def save_daily_snapshot(ads):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(ads, f, indent=2, ensure_ascii=False)
     return filename
+
 
 
 def load_previous_snapshot():
@@ -77,6 +81,7 @@ def load_previous_snapshot():
         return json.load(f)
 
 
+
 def load_price_history():
     if os.path.exists(HISTORY_FILE):
         with open(HISTORY_FILE, "r", encoding="utf-8") as f:
@@ -84,9 +89,11 @@ def load_price_history():
     return {}
 
 
+
 def save_price_history(history):
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2, ensure_ascii=False)
+
 
 
 def generate_report(current_ads, previous_ads):
@@ -112,7 +119,6 @@ def generate_report(current_ads, previous_ads):
                 "new_price": current_ad['price']
             })
 
-        # Update price history
         if ad_id not in history:
             history[ad_id] = []
         if not history[ad_id] or history[ad_id][-1]['price'] != current_ad['price']:
@@ -121,6 +127,7 @@ def generate_report(current_ads, previous_ads):
     save_price_history(history)
 
     report = {
+        "total_ads": len(current_ads),
         "added": added,
         "removed": removed,
         "price_changed": price_changed
