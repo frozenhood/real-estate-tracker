@@ -11,12 +11,13 @@ REPORT_DIR = "reports"
 HISTORY_FILE = "price-history.json"
 
 
-def fetch_current_ads():
+def fetch_ads_from_page(page):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
 
-    response = requests.get(FILTER_URL, headers=headers, timeout=10)
+    url = f"{FILTER_URL}&page={page}"
+    response = requests.get(url, headers=headers, timeout=10)
     response.raise_for_status()
 
     soup = BeautifulSoup(response.text, 'html.parser')
@@ -60,6 +61,19 @@ def fetch_current_ads():
     return results
 
 
+def fetch_current_ads():
+    all_ads = []
+    page = 1
+
+    while True:
+        ads = fetch_ads_from_page(page)
+        if not ads:
+            break
+        all_ads.extend(ads)
+        page += 1
+
+    return all_ads
+
 
 def save_daily_snapshot(ads):
     date_str = datetime.now().strftime("%Y-%m-%d")
@@ -68,7 +82,6 @@ def save_daily_snapshot(ads):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(ads, f, indent=2, ensure_ascii=False)
     return filename
-
 
 
 def load_previous_snapshot():
@@ -81,7 +94,6 @@ def load_previous_snapshot():
         return json.load(f)
 
 
-
 def load_price_history():
     if os.path.exists(HISTORY_FILE):
         with open(HISTORY_FILE, "r", encoding="utf-8") as f:
@@ -89,11 +101,9 @@ def load_price_history():
     return {}
 
 
-
 def save_price_history(history):
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2, ensure_ascii=False)
-
 
 
 def generate_report(current_ads, previous_ads):
