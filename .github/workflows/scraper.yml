@@ -26,6 +26,13 @@ jobs:
 
       - name: Run script
         run: python main.py
+
+      - name: Send Telegram Notification
+        run: |
+          curl -s -X POST https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage \
+            -d chat_id=${{ secrets.TELEGRAM_CHAT_ID }} \
+            -d parse_mode=HTML \
+            --data-urlencode "text=$(cat telegram-message.txt)"
         
       - name: Commit changes
         run: |
