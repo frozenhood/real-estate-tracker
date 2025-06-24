@@ -36,6 +36,9 @@ def fetch_ads_from_page(page):
         price_by_surface_tag = ad.select_one('div.price-by-surface span')
         ad_id = ad.get('data-id')
 
+        kvadratura_tag = ad.select_one("ul.product-features li:nth-child(2) .value-wrapper")
+        kvadratura = kvadratura_tag.get_text(strip=True) if kvadratura_tag else None
+
         url = title_tag['href'] if title_tag else None
         title = title_tag.get_text(strip=True) if title_tag else None
         price = price_tag.get_text(strip=True) if price_tag else None
@@ -47,14 +50,15 @@ def fetch_ads_from_page(page):
         if url:
             full_url = f"https://www.halooglasi.com{url}"
             results.append({
-                'id': ad_id,
-                'url': full_url,
+                'location': location_full,
                 'title': title,
+                'kvadratura': kvadratura,
                 'price': price,
                 'price_by_surface': price_by_surface,
-                'location': location_full,
                 'publish_date': publish_date,
-                'advertiser': advertiser
+                'advertiser': advertiser,
+                'id': ad_id,
+                'url': full_url
             })
 
     return results
