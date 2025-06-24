@@ -2,10 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 
 FILTER_URL = "https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd?cena_d_to=140000&cena_d_unit=4"
-#            "https://www.halooglasi.com/nekretnine/prodaja-kuca?grad_id_l-lokacija_id_l-mikrolokacija_id_l=40381%2C528336%2C529392%2C530392%2C531045%2C40761%2C35237&cena_d_to=140000&cena_d_unit=4"
 DATA_DIR = "data"
 REPORT_DIR = "reports"
 HISTORY_FILE = "price-history.json"
@@ -75,6 +74,25 @@ def fetch_current_ads():
     return all_ads
 
 
+def sort_ads_by_location_and_price(ads):
+    def extract_obshchina(location):
+        parts = location.split('|') if location else []
+        parts = [p.strip() for p in parts]
+        return parts[1] if len(parts) >= 2 else ''
+
+    def extract_price(ad):
+        price_str = ad.get("price", "").replace("€", "").replace(".", "").replace(",", "").strip()
+        try:
+            return int(price_str)
+        except ValueError:
+            return float('inf')
+
+    return sorted(
+        ads,
+        key=lambda ad: (extract_obshchina(ad.get("location")), extract_price(ad))
+    )
+
+
 def save_daily_snapshot(ads):
     date_str = datetime.now().strftime("%Y-%m-%d")
     os.makedirs(DATA_DIR, exist_ok=True)
@@ -113,6 +131,12 @@ def generate_report(current_ads, previous_ads):
     added = [current_dict[k] for k in current_dict.keys() - previous_dict.keys()]
     removed = [previous_dict[k] for k in previous_dict.keys() - current_dict.keys()]
 
+    today = datetime.now().date()
+    yesterday = today - timedelta(days=1)
+    recent_dates = {today.strftime("%d.%m.%Y."), yesterday.strftime("%d.%m.%Y.")}
+
+    added_recent = [ad for ad in current_ads if ad['publish_date'] in recent_dates]
+
     price_changed = []
     history = load_price_history()
     date_str = datetime.now().strftime("%Y-%m-%d")
@@ -139,6 +163,7 @@ def generate_report(current_ads, previous_ads):
     report = {
         "total_ads": len(current_ads),
         "added": added,
+        "added_recent": added_recent,
         "removed": removed,
         "price_changed": price_changed
     }
@@ -153,7 +178,9 @@ def generate_report(current_ads, previous_ads):
 
 if __name__ == "__main__":
     current_ads = fetch_current_ads()
+    current_ads_sorted = sort_ads_by_location_and_price(current_ads)
     previous_ads = load_previous_snapshot()
-    save_daily_snapshot(current_ads)
-    report_file = generate_report(current_ads, previous_ads)
+    save_daily_snapshot(current_ads_sorted)
+    report_file = generate_report(current_ads_sorted, previous_ads)
     print(f"Report saved: {report_file}")
+
