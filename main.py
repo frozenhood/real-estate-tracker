@@ -36,8 +36,18 @@ def fetch_ads_from_page(page):
         price_by_surface_tag = ad.select_one('div.price-by-surface span')
         ad_id = ad.get('data-id')
 
-        kvadratura_tag = ad.select_one("ul.product-features li:nth-child(2) .value-wrapper")
+        kvadratura_tag = None
+        for li in ad.select('ul.product-features li'):
+            if 'Kvadratura' in li.get_text():
+                kvadratura_tag = li.select_one('.value-wrapper')
+                break
+
         kvadratura = kvadratura_tag.get_text(strip=True) if kvadratura_tag else None
+
+        # Оставляем только число и "m2"
+        if kvadratura:
+            match = re.search(r"[\d,.]+", kvadratura)
+            kvadratura = match.group(0).replace(".", "").replace(",", ".")
 
         url = title_tag['href'] if title_tag else None
         title = title_tag.get_text(strip=True) if title_tag else None
