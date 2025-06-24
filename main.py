@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import os
 from datetime import datetime, timedelta
+import re
 
 FILTER_URL = "https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd?cena_d_to=140000&cena_d_unit=4"
 DATA_DIR = "data"
@@ -47,7 +48,7 @@ def fetch_ads_from_page(page):
         # Оставляем только число и "m2"
         if kvadratura:
             match = re.search(r"[\d,.]+", kvadratura)
-            kvadratura = match.group(0).replace(".", "").replace(",", ".")
+            kvadratura = match.group(0).replace(".", "").replace(",", ".") + " m2" if match else None
 
         url = title_tag['href'] if title_tag else None
         title = title_tag.get_text(strip=True) if title_tag else None
