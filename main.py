@@ -10,7 +10,6 @@ DATA_DIR = "data"
 REPORT_DIR = "reports"
 HISTORY_FILE = "price-history.json"
 
-
 def fetch_ads_from_page(page):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -76,16 +75,13 @@ def fetch_ads_from_page(page):
 def fetch_current_ads():
     all_ads = []
     page = 1
-
     while True:
         ads = fetch_ads_from_page(page)
         if not ads:
             break
         all_ads.extend(ads)
         page += 1
-
     return all_ads
-
 
 def sort_ads_by_location_and_price(ads):
     def extract_obshchina(location):
@@ -105,16 +101,6 @@ def sort_ads_by_location_and_price(ads):
         key=lambda ad: (extract_obshchina(ad.get("location")), extract_price(ad))
     )
 
-
-def save_daily_snapshot(ads):
-    date_str = datetime.now().strftime("%Y-%m-%d")
-    os.makedirs(DATA_DIR, exist_ok=True)
-    filename = os.path.join(DATA_DIR, f"{date_str}.json")
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(ads, f, indent=2, ensure_ascii=False)
-    return filename
-
-
 def load_previous_snapshot():
     if not os.path.exists(DATA_DIR):
         return []
@@ -124,18 +110,15 @@ def load_previous_snapshot():
     with open(os.path.join(DATA_DIR, files[-2]), "r", encoding="utf-8") as f:
         return json.load(f)
 
-
 def load_price_history():
     if os.path.exists(HISTORY_FILE):
         with open(HISTORY_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
     return {}
 
-
 def save_price_history(history):
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2, ensure_ascii=False)
-
 
 def generate_report(current_ads, previous_ads):
     current_dict = {ad['id']: ad for ad in current_ads}
@@ -143,14 +126,8 @@ def generate_report(current_ads, previous_ads):
 
     added = [current_dict[k] for k in current_dict.keys() - previous_dict.keys()]
     removed = [previous_dict[k] for k in previous_dict.keys() - current_dict.keys()]
-
-    today = datetime.now().date()
-    yesterday = today - timedelta(days=1)
-    recent_dates = {today.strftime("%d.%m.%Y."), yesterday.strftime("%d.%m.%Y.")}
-
-    added_recent = [ad for ad in current_ads if ad['publish_date'] in recent_dates]
-
     price_changed = []
+
     history = load_price_history()
     date_str = datetime.now().strftime("%Y-%m-%d")
 
@@ -162,8 +139,10 @@ def generate_report(current_ads, previous_ads):
                 "id": ad_id,
                 "url": current_ad['url'],
                 "title": current_ad['title'],
-                "old_price": previous_ad['price'],
-                "new_price": current_ad['price']
+                "location": current_ad['location'],
+                "kvadratura": current_ad['kvadratura'],
+                "price": current_ad['price'],
+                "old_price": previous_ad['price']
             })
 
         if ad_id not in history:
@@ -176,7 +155,6 @@ def generate_report(current_ads, previous_ads):
     report = {
         "total_ads": len(current_ads),
         "added": added,
-        "added_recent": added_recent,
         "removed": removed,
         "price_changed": price_changed
     }
@@ -186,7 +164,7 @@ def generate_report(current_ads, previous_ads):
     with open(report_file, "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2, ensure_ascii=False)
 
-    return report_file
+    return report_file, report
 
 def generate_telegram_message(new_ads, price_changes):
     lines = []
@@ -194,30 +172,33 @@ def generate_telegram_message(new_ads, price_changes):
     if new_ads:
         lines.append("<b>🆕 New ads:</b>")
         for ad in new_ads:
-            lines.append(f"🏠 <b>{ad['title']}</b>\n📍 {ad['location']}\n📏 {ad.get('kvadratura', '')}\n💶 {ad['price']}\n🔗 <a href='{ad['url']}'>Открыть</a>\n")
+            lines.append(f"🏠 <b>{ad['title']}</b>\n📍 {ad['location']}\n📏 {ad.get('kvadratura', '')}\n💶 {ad['price']}\n🔗 <a href='{ad['url']}'>Open</a>\n")
 
     if price_changes:
         lines.append("<b>💰 Price changes:</b>")
         for ad_id, changes in price_changes.items():
             current = changes['current']
             old_price = changes['previous_price']
-            lines.append(f"🏠 <b>{current['title']}</b>\n📍 {current['location']}\n📏 {current.get('kvadratura', '')}\n💶 <s>{old_price}</s> → <b>{current['price']}</b>\n🔗 <a href='{current['url']}'>Открыть</a>\n")
+            lines.append(f"🏠 <b>{current['title']}</b>\n📍 {current['location']}\n📏 {current.get('kvadratura', '')}\n💶 <s>{old_price}</s> → <b>{current['price']}</b>\n🔗 <a href='{current['url']}'>Open</a>\n")
 
     if not new_ads and not price_changes:
         lines.append("No new ads or price changes today.")
 
     return "\n".join(lines)
 
-
 if __name__ == "__main__":
     current_ads = fetch_current_ads()
     current_ads_sorted = sort_ads_by_location_and_price(current_ads)
     previous_ads = load_previous_snapshot()
     save_daily_snapshot(current_ads_sorted)
-    report_file = generate_report(current_ads_sorted, previous_ads)
+    report_file, report_data = generate_report(current_ads_sorted, previous_ads)
 
     # Telegram message generation
-    new_ads, removed_ads, price_changes = compare_ads(current_ads_sorted, previous_ads)
+    new_ads = report_data.get("added", [])
+    price_changes = {
+        entry["id"]: {"current": entry, "previous_price": entry["old_price"]}
+        for entry in report_data.get("price_changed", [])
+    }
     telegram_message = generate_telegram_message(new_ads, price_changes)
 
     with open("telegram-message.txt", "w", encoding="utf-8") as f:
@@ -225,4 +206,3 @@ if __name__ == "__main__":
 
     print(f"Report saved: {report_file}")
     print("Telegram message generated.")
-
