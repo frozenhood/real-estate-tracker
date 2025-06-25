@@ -101,6 +101,14 @@ def sort_ads_by_location_and_price(ads):
         key=lambda ad: (extract_obshchina(ad.get("location")), extract_price(ad))
     )
 
+def save_daily_snapshot(ads):
+    date_str = datetime.now().strftime("%Y-%m-%d")
+    os.makedirs(DATA_DIR, exist_ok=True)
+    filename = os.path.join(DATA_DIR, f"{date_str}.json")
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(ads, f, indent=2, ensure_ascii=False)
+    return filename
+
 def load_previous_snapshot():
     if not os.path.exists(DATA_DIR):
         return []
