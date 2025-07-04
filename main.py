@@ -129,8 +129,9 @@ def save_price_history(history):
         json.dump(history, f, indent=2, ensure_ascii=False)
 
 def generate_report(current_ads, previous_ads):
-    current_dict = {ad['id']: ad for ad in current_ads}
-    previous_dict = {ad['id']: ad for ad in previous_ads}
+    # Always use string id and strip spaces for robust comparison
+    current_dict = {str(ad['id']).strip(): ad for ad in current_ads}
+    previous_dict = {str(ad['id']).strip(): ad for ad in previous_ads}
 
     added = [current_dict[k] for k in current_dict.keys() - previous_dict.keys()]
     removed = [previous_dict[k] for k in previous_dict.keys() - current_dict.keys()]
