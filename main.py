@@ -128,10 +128,25 @@ def save_price_history(history):
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2, ensure_ascii=False)
 
+def remove_duplicates_by_id(ads):
+    """Remove duplicate ads by id, keeping the first occurrence"""
+    seen_ids = set()
+    unique_ads = []
+    for ad in ads:
+        ad_id = str(ad['id']).strip()
+        if ad_id not in seen_ids:
+            seen_ids.add(ad_id)
+            unique_ads.append(ad)
+    return unique_ads
+
 def generate_report(current_ads, previous_ads):
+    # Remove duplicates before comparison
+    current_ads_unique = remove_duplicates_by_id(current_ads)
+    previous_ads_unique = remove_duplicates_by_id(previous_ads)
+
     # Always use string id and strip spaces for robust comparison
-    current_dict = {str(ad['id']).strip(): ad for ad in current_ads}
-    previous_dict = {str(ad['id']).strip(): ad for ad in previous_ads}
+    current_dict = {str(ad['id']).strip(): ad for ad in current_ads_unique}
+    previous_dict = {str(ad['id']).strip(): ad for ad in previous_ads_unique}
 
     added = [current_dict[k] for k in current_dict.keys() - previous_dict.keys()]
     removed = [previous_dict[k] for k in previous_dict.keys() - current_dict.keys()]
