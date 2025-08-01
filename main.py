@@ -143,16 +143,25 @@ def generate_report(current_ads, previous_ads):
     # Remove duplicates before comparison
     current_ads_unique = remove_duplicates_by_id(current_ads)
     previous_ads_unique = remove_duplicates_by_id(previous_ads)
-
+    
     # Always use string id and strip spaces for robust comparison
     current_dict = {str(ad['id']).strip(): ad for ad in current_ads_unique}
     previous_dict = {str(ad['id']).strip(): ad for ad in previous_ads_unique}
 
-    added = [current_dict[k] for k in current_dict.keys() - previous_dict.keys()]
-    removed = [previous_dict[k] for k in previous_dict.keys() - current_dict.keys()]
-    price_changed = []
-
+    # Load price history to determine truly new ads
     history = load_price_history()
+    
+    # Find ads that are truly new (not in history at all)
+    truly_new_ads = []
+    for ad_id, ad in current_dict.items():
+        if ad_id not in history:
+            truly_new_ads.append(ad)
+    
+    # Find ads that were in previous day but not in current day
+    removed = [previous_dict[k] for k in previous_dict.keys() - current_dict.keys()]
+    
+    # Find ads with price changes
+    price_changed = []
     date_str = datetime.now().strftime("%Y-%m-%d")
 
     for ad_id in current_dict.keys() & previous_dict.keys():
@@ -169,6 +178,7 @@ def generate_report(current_ads, previous_ads):
                 "old_price": previous_ad['price']
             })
 
+        # Update history
         if ad_id not in history:
             history[ad_id] = []
         if not history[ad_id] or history[ad_id][-1]['price'] != current_ad['price']:
@@ -178,7 +188,7 @@ def generate_report(current_ads, previous_ads):
 
     report = {
         "total_ads": len(current_ads),
-        "added": added,
+        "added": truly_new_ads,  # Only truly new ads
         "removed": removed,
         "price_changed": price_changed
     }
