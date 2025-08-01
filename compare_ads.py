@@ -49,17 +49,56 @@ if __name__ == "__main__":
     # Old method: compare with previous day
     added_old_method = set(dict_30.keys()) - set(dict_29.keys())
 
+    # Check price changes (new method vs old method)
+    price_changed_new = []
+    price_changed_old = []
+    
+    # New method: compare with previous day (correct logic)
+    for ad_id in dict_30.keys() & dict_29.keys():
+        current_ad = dict_30[ad_id]
+        previous_ad = dict_29[ad_id]
+        if current_ad['price'] != previous_ad['price']:
+            price_changed_new.append({
+                "id": ad_id,
+                "title": current_ad['title'],
+                "price": current_ad['price'],
+                "old_price": previous_ad['price']
+            })
+    
+    # Old method: compare with history (this was wrong)
+    for ad_id, ad in dict_30.items():
+        if ad_id in history and history[ad_id]:
+            last_price = history[ad_id][-1]['price']
+            if ad['price'] != last_price:
+                price_changed_old.append({
+                    "id": ad_id,
+                    "title": ad['title'],
+                    "price": ad['price'],
+                    "old_price": last_price
+                })
+
     print(f"Total in 29 (before dedup): {len(ads_29)}")
     print(f"Total in 30 (before dedup): {len(ads_30)}")
     print(f"Total in 29 (after dedup): {len(dict_29)}")
     print(f"Total in 30 (after dedup): {len(dict_30)}")
     print(f"Added (old method): {len(added_old_method)}")
     print(f"Truly new (using history): {len(truly_new_30)}")
+    print(f"Price changed (new method): {len(price_changed_new)}")
+    print(f"Price changed (old method): {len(price_changed_old)}")
 
     # Print truly new ads
     print("\nTruly new ads:")
     for ad in truly_new_30:
         print(f"  {ad['id']}: {ad['title']}")
+    
+    # Print price changes
+    print("\nPrice changes (new method):")
+    for change in price_changed_new:
+        print(f"  {change['id']}: {change['title']} - {change['old_price']} → {change['price']}")
+    
+    print("\nPrice changes (old method):")
+    for change in price_changed_old:
+        print(f"  {change['id']}: {change['title']} - {change['old_price']} → {change['price']}")
 
     # For debug: check if any id is duplicated in source files
     def check_duplicates(ad_list, label):

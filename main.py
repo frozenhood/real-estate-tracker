@@ -164,9 +164,11 @@ def generate_report(current_ads, previous_ads):
     price_changed = []
     date_str = datetime.now().strftime("%Y-%m-%d")
 
+    # Compare with previous day for price changes
     for ad_id in current_dict.keys() & previous_dict.keys():
         current_ad = current_dict[ad_id]
         previous_ad = previous_dict[ad_id]
+        
         if current_ad['price'] != previous_ad['price']:
             price_changed.append({
                 "id": ad_id,
@@ -178,7 +180,8 @@ def generate_report(current_ads, previous_ads):
                 "old_price": previous_ad['price']
             })
 
-        # Update history
+    # Update history for all current ads
+    for ad_id, current_ad in current_dict.items():
         if ad_id not in history:
             history[ad_id] = []
         if not history[ad_id] or history[ad_id][-1]['price'] != current_ad['price']:
