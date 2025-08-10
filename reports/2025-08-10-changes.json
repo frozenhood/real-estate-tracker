@@ -1,0 +1,159 @@
+{
+  "total_ads": 355,
+  "added": [
+    {
+      "title": "Mladenovac",
+      "location": "Beograd | Opština Mladenovac | Mladenovac (mesto)",
+      "kvadratura": "80 m2",
+      "price": "24.000 €",
+      "price_by_surface": "300 €/m2",
+      "publish_date": "10.08.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645889255",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mladenovac/5425645889255?kid=1"
+    },
+    {
+      "title": "Babe (Sopot) 95 m2 - 16 ari",
+      "location": "Beograd | Opština Sopot | Babe",
+      "kvadratura": "95 m2",
+      "price": "130.000 €",
+      "price_by_surface": "1.368 €/m2",
+      "publish_date": "10.08.2025.",
+      "advertiser": "Agencija",
+      "id": "5425644843174",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/babe-sopot-95-m2---16-ari/5425644843174?kid=1"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Prodaja kuće, Kragujevački put, 96m2, 9 ari placa",
+      "location": "Beograd | Opština Grocka | Vrčin | Kragujevački put",
+      "kvadratura": "96 m2",
+      "price": "98.000 €",
+      "price_by_surface": "1.021 €/m2",
+      "publish_date": "10.07.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645750410",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaja-kuce-kragujevacki-put-96m2-9-ari-plac/5425645750410?kid=1"
+    },
+    {
+      "title": "kuća u Sopotu",
+      "location": "Beograd | Opština Sopot | Sopot (mesto) | Kosovska",
+      "kvadratura": "84 m2",
+      "price": "110.000 €",
+      "price_by_surface": "1.310 €/m2",
+      "publish_date": "24.07.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425645234700",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-sopotu/5425645234700?kid=4"
+    },
+    {
+      "title": "Mladenovac - Milutina Milankovića ID#1676",
+      "location": "Beograd | Opština Mladenovac | Mladenovac selo | Milutina Milankovića",
+      "kvadratura": "479 m2",
+      "price": "97.000 €",
+      "price_by_surface": "203 €/m2",
+      "publish_date": "10.07.2025.",
+      "advertiser": "Agencija",
+      "id": "5425644447705",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mladenovac---milutina-milankovica-id1676/5425644447705?kid=1"
+    },
+    {
+      "title": "Zvezdara, Mali Mokri Lug - Ive Marinkovića 59m2",
+      "location": "Beograd | Opština Zvezdara | Mali Mokri Lug | Ive Marinkovića",
+      "kvadratura": "59 m2",
+      "price": "108.000 €",
+      "price_by_surface": "1.831 €/m2",
+      "publish_date": "11.07.2025.",
+      "advertiser": "Agencija",
+      "id": "5425643711607",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/zvezdara-mali-mokri-lug---ive-marinkovica-59m/5425643711607?kid=1"
+    },
+    {
+      "title": "Vikendica na prodaju",
+      "location": "Beograd | Opština Lazarevac | Veliki Crljeni | Jovana Jovanovica Zmaja 31",
+      "kvadratura": "54 m2",
+      "price": "22.500 €",
+      "price_by_surface": "417 €/m2",
+      "publish_date": "25.07.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425645720583",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vikendica-na-prodaju/5425645720583?kid=3"
+    },
+    {
+      "title": "Miran kutak za uzivanje",
+      "location": "Beograd | Opština Obrenovac | Mislođin | Bačevička",
+      "kvadratura": "36 m2",
+      "price": "39.500 €",
+      "price_by_surface": "1.097 €/m2",
+      "publish_date": "26.07.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425645743950",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/miran-kutak-za-uzivanje/5425645743950?kid=3"
+    },
+    {
+      "title": "Obrenovac, zasebna kuća",
+      "location": "Beograd | Opština Obrenovac | Belo Polje | Tamnavska 2.deo",
+      "kvadratura": "294 m2",
+      "price": "130.000 €",
+      "price_by_surface": "442 €/m2",
+      "publish_date": "11.07.2025.",
+      "advertiser": "Agencija",
+      "id": "5425644192230",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/obrenovac-zasebna-kuca/5425644192230?kid=1"
+    },
+    {
+      "title": "Bečmen, kuća, 120 + 80 m2",
+      "location": "Beograd | Opština Surčin | Bečmen | ",
+      "kvadratura": "120 m2",
+      "price": "130.000 €",
+      "price_by_surface": "1.083 €/m2",
+      "publish_date": "11.07.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645427914",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/becmen-kuca-120-80-m2/5425645427914?kid=1"
+    },
+    {
+      "title": "Grocka, porodična kuća 178m2, 5 ari parcela",
+      "location": "Beograd | Opština Grocka | Grocka (mesto)",
+      "kvadratura": "178 m2",
+      "price": "139.000 €",
+      "price_by_surface": "781 €/m2",
+      "publish_date": "10.07.2025.",
+      "advertiser": "Agencija",
+      "id": "5425644818468",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/grocka-porodicna-kuca-178m2-5-ari-parcela/5425644818468?kid=1"
+    },
+    {
+      "title": "Lazarevac, Vrbovno ID#2597",
+      "location": "Beograd | Opština Lazarevac | Vrbovno | Magistralna",
+      "kvadratura": "35 m2",
+      "price": "22.000 €",
+      "price_by_surface": "629 €/m2",
+      "publish_date": "10.07.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645749830",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/lazarevac-vrbovno-id2597/5425645749830?kid=1"
+    }
+  ],
+  "price_changed": [
+    {
+      "id": "5425645606797",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/ripanj-pogledaj-video/5425645606797?kid=1",
+      "title": "Ripanj, pogledaj video",
+      "location": "Beograd | Opština Voždovac | Ripanj | Goluba Janića",
+      "kvadratura": "106 m2",
+      "price": "49.000 €",
+      "old_price": "53.000 €"
+    },
+    {
+      "id": "5425645756678",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/lepa-kuca-u-dudovici/5425645756678?kid=1",
+      "title": "Lepa kuća u Dudovici",
+      "location": "Beograd | Opština Lazarevac | Dudovica | Zlotska",
+      "kvadratura": "130 m2",
+      "price": "65.000 €",
+      "old_price": "80.000 €"
+    }
+  ]
+}
