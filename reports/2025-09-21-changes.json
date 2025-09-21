@@ -1,0 +1,195 @@
+{
+  "total_ads": 344,
+  "added": [
+    {
+      "title": "Prodaje se kuća sa placem 11ari",
+      "location": "Beograd | Opština Sopot | Guberevac | Brdska",
+      "kvadratura": "165 m2",
+      "price": "45.000 €",
+      "price_by_surface": "273 €/m2",
+      "publish_date": "20.09.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646071107",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaje-se-kuca-sa-placem-11ari/5425646071107?kid=3"
+    },
+    {
+      "title": "Gradsko gradjevinsko zemljiste,kuca sa placem",
+      "location": "Beograd | Opština Čukarica | Velika Moštanica | Radnicka(Milasevica)",
+      "kvadratura": "31 m2",
+      "price": "75.000 €",
+      "price_by_surface": "2.419 €/m2",
+      "publish_date": "21.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646076013",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/gradsko-gradjevinsko-zemljiste-kuca-sa-placem/5425646076013?kid=1"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Kuća ili vikendica 83m2 na 10 ari placa",
+      "location": "Beograd | Opština Sopot | Mali Požarevac",
+      "kvadratura": "83 m2",
+      "price": "85.000 €",
+      "price_by_surface": "1.024 €/m2",
+      "publish_date": "21.08.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645695313",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-ili-vikendica-83m2-na-10-ari-placa/5425645695313?kid=1"
+    },
+    {
+      "title": "Porodična kuća u izgradnji, u centru Baćevca",
+      "location": "Beograd | Opština Barajevo | Baćevac | ",
+      "kvadratura": "150 m2",
+      "price": "45.000 €",
+      "price_by_surface": "300 €/m2",
+      "publish_date": "21.08.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645748758",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/porodicna-kuca-u-izgradnji-u-centru-bacevca/5425645748758?kid=1"
+    },
+    {
+      "title": "Sopot Ralja dve porodične kuće sa garažom uknjižen",
+      "location": "Beograd | Opština Sopot | Ralja | Ljubivoja Gajića",
+      "kvadratura": "234 m2",
+      "price": "85.000 €",
+      "price_by_surface": "363 €/m2",
+      "publish_date": "21.08.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645770201",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/sopot-ralja-dve-porodicne-kuce-sa-garazom-ukn/5425645770201?kid=1"
+    },
+    {
+      "title": "Stojnik – renovirana kuća 71 m² + ukupno 24 ara pl",
+      "location": "Beograd | Opština Sopot | Stojnik | ",
+      "kvadratura": "71 m2",
+      "price": "98.000 €",
+      "price_by_surface": "1.380 €/m2",
+      "publish_date": "21.08.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645905773",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/stojnik-renovirana-kuca-71-m-ukupno-24-ara-pl/5425645905773"
+    },
+    {
+      "title": "Trosobna kuća u Bečmenu",
+      "location": "Beograd | Opština Surčin | Bečmen | ",
+      "kvadratura": "70 m2",
+      "price": "95.000 €",
+      "price_by_surface": "1.357 €/m2",
+      "publish_date": "21.08.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645631887",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/trosobna-kuca-u-becmenu/5425645631887?kid=1"
+    },
+    {
+      "title": "Resnik, 280m2+9a",
+      "location": "Beograd | Opština Rakovica | Resnik",
+      "kvadratura": "280 m2",
+      "price": "125.000 €",
+      "price_by_surface": "446 €/m2",
+      "publish_date": "22.08.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645430434",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/resnik-280m29a/5425645430434?kid=1"
+    },
+    {
+      "title": "Hitna prodaja, splav, Obrenovac, reka Sava",
+      "location": "Beograd | Opština Obrenovac | Zabrežje | Prote Mateje Nenadovića",
+      "kvadratura": "100 m2",
+      "price": "59.220 €",
+      "price_by_surface": "592 €/m2",
+      "publish_date": "21.08.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425645665936",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/hitna-prodaja-splav-obrenovac-reka-sava/5425645665936?kid=1"
+    },
+    {
+      "title": "Kuća u Koraćici 150 m2, 10 ari- cena dogovor",
+      "location": "Beograd | Opština Mladenovac | Koraćica | Raje Stepanovića",
+      "kvadratura": "149 m2",
+      "price": "65.000 €",
+      "price_by_surface": "436 €/m2",
+      "publish_date": "21.08.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645660163",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-koracici-150-m2-10-ari--cena-dogovor/5425645660163?kid=1"
+    },
+    {
+      "title": "Imanje u Koraćici",
+      "location": "Beograd | Opština Mladenovac | Koraćica | Nikolića česma",
+      "kvadratura": "30 m2",
+      "price": "42.000 €",
+      "price_by_surface": "1.400 €/m2",
+      "publish_date": "21.08.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425645939026",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/imanje-u-koracici/5425645939026?kid=1"
+    },
+    {
+      "title": "Stan na prodaju, u lepoj i mirnoj ulici, u neposre",
+      "location": "Beograd | Opština Novi Beograd | Ledine | ",
+      "kvadratura": "50 m2",
+      "price": "83.000 €",
+      "price_by_surface": "1.660 €/m2",
+      "publish_date": "21.08.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645432009",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/stan-na-prodaju-u-lepoj-i-mirnoj-ulici-u-nepo/5425645432009?kid=1"
+    },
+    {
+      "title": "Kuća Progar,useljiva-bez dodatnog ulaganja",
+      "location": "Beograd | Opština Surčin | Progar | Momira Pucarevića",
+      "kvadratura": "114 m2",
+      "price": "135.000 €",
+      "price_by_surface": "1.184 €/m2",
+      "publish_date": "21.08.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425645683695",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-progar-useljiva-bez-dodatnog-ulaganja/5425645683695?kid=1"
+    },
+    {
+      "title": "Baćevac, započeta gradnja, kod magistrale, 12.25a",
+      "location": "Beograd | Opština Barajevo | Baćevac | Milice Nikolić",
+      "kvadratura": "150 m2",
+      "price": "45.000 €",
+      "price_by_surface": "300 €/m2",
+      "publish_date": "22.08.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645674750",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/bacevac-zapoceta-gradnja-kod-magistrale-12-25/5425645674750?kid=1"
+    },
+    {
+      "title": "Prodajemo kucu u Dobanovackoj ulici",
+      "location": "Beograd | Opština Zemun | Dobanovačka",
+      "kvadratura": "76 m2",
+      "price": "130.000 €",
+      "price_by_surface": "1.711 €/m2",
+      "publish_date": "21.08.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425644828896",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodajemo-kucu-u-dobanovackoj-ulici/5425644828896?kid=1"
+    },
+    {
+      "title": "Lazarevac Vrbovno 153m2",
+      "location": "Beograd | Opština Lazarevac | Vrbovno | Gočka",
+      "kvadratura": "153 m2",
+      "price": "82.000 €",
+      "price_by_surface": "536 €/m2",
+      "publish_date": "20.08.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645934120",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/lazarevac-vrbovno-153m2/5425645934120?kid=1"
+    },
+    {
+      "title": "Kuća 79m², na 9,19ari placa - Obrenovac",
+      "location": "Beograd | Opština Obrenovac | Obrenovac (mesto)",
+      "kvadratura": "79 m2",
+      "price": "75.000 €",
+      "price_by_surface": "949 €/m2",
+      "publish_date": "22.08.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645547483",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-79m-na-9-19ari-placa---obrenovac/5425645547483?kid=1"
+    }
+  ],
+  "price_changed": []
+}
