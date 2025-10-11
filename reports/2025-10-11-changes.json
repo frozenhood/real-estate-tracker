@@ -1,0 +1,258 @@
+{
+  "total_ads": 356,
+  "added": [
+    {
+      "title": "Kuća, Barajevo, Guncati , 270m2",
+      "location": "Beograd | Opština Barajevo | Guncati | Slobodana Penezića",
+      "kvadratura": "270 m2",
+      "price": "110.000 €",
+      "price_by_surface": "407 €/m2",
+      "publish_date": "10.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646162135",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-barajevo-guncati-270m2/5425646162135"
+    },
+    {
+      "title": "Porodična kuća okružena zelenilom – Vrčin (Avala)",
+      "location": "Beograd | Opština Grocka | Vrčin",
+      "kvadratura": "200 m2",
+      "price": "80.000 €",
+      "price_by_surface": "400 €/m2",
+      "publish_date": "10.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646162547",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/porodicna-kuca-okruzena-zelenilom-vrcin-avala/5425646162547?kid=1"
+    },
+    {
+      "title": "Mladenovac, porodična kuća ID#12540",
+      "location": "Beograd | Opština Mladenovac | Mladenovac selo | Ilije Petrovića",
+      "kvadratura": "165 m2",
+      "price": "120.000 €",
+      "price_by_surface": "727 €/m2",
+      "publish_date": "10.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646162198",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mladenovac-porodicna-kuca-id12540/5425646162198?kid=1"
+    },
+    {
+      "title": "Prodajem kuću u Draževcu",
+      "location": "Beograd | Opština Obrenovac | Draževac | Vodovodska",
+      "kvadratura": "90 m2",
+      "price": "45.000 €",
+      "price_by_surface": "500 €/m2",
+      "publish_date": "10.10.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646162583",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodajem-kucu-u-drazevcu/5425646162583?kid=1"
+    },
+    {
+      "title": "Kuća, Batajnica",
+      "location": "Beograd | Opština Zemun | Batajnica | Novosadska",
+      "kvadratura": "58 m2",
+      "price": "95.000 €",
+      "price_by_surface": "1.638 €/m2",
+      "publish_date": "10.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646162207",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-batajnica/5425646162207?kid=1"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Barajevo - Baćevac",
+      "location": "Beograd | Opština Barajevo | Baćevac",
+      "kvadratura": "75 m2",
+      "price": "135.000 €",
+      "price_by_surface": "1.800 €/m2",
+      "publish_date": "11.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645623205",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/barajevo---bacevac/5425645623205?kid=1"
+    },
+    {
+      "title": "Borča,Mali Zbeg,130 kvm,vpr+I,useljivo",
+      "location": "Beograd | Opština Palilula | Borča | Mali Zbeg",
+      "kvadratura": "130 m2",
+      "price": "135.000 €",
+      "price_by_surface": "1.038 €/m2",
+      "publish_date": "10.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425644848349",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/borca-mali-zbeg-130-kvm-vpri-useljivo/5425644848349?kid=1"
+    },
+    {
+      "title": "Vikendica/kuća",
+      "location": "Beograd | Opština Barajevo | Lisović | Obrada Mihajlovića Jastreba",
+      "kvadratura": "100 m2",
+      "price": "62.000 €",
+      "price_by_surface": "620 €/m2",
+      "publish_date": "25.09.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646032626",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vikendicakuca/5425646032626?kid=4"
+    },
+    {
+      "title": "Grocka, porodična kuća 178m2, 5 ari parcela",
+      "location": "Beograd | Opština Grocka | Grocka (mesto)",
+      "kvadratura": "178 m2",
+      "price": "139.000 €",
+      "price_by_surface": "781 €/m2",
+      "publish_date": "11.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425644818468",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/grocka-porodicna-kuca-178m2-5-ari-parcela/5425644818468?kid=1"
+    },
+    {
+      "title": "Bečmen, kuća, 120 + 80 m2",
+      "location": "Beograd | Opština Surčin | Bečmen | ",
+      "kvadratura": "120 m2",
+      "price": "130.000 €",
+      "price_by_surface": "1.083 €/m2",
+      "publish_date": "10.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645427914",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/becmen-kuca-120-80-m2/5425645427914?kid=1"
+    },
+    {
+      "title": "Mladenovac-selo",
+      "location": "Beograd | Opština Mladenovac | Mladenovac selo | Milutina Milankovića",
+      "kvadratura": "479 m2",
+      "price": "97.000 €",
+      "price_by_surface": "203 €/m2",
+      "publish_date": "11.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645756698",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mladenovac-selo/5425645756698?kid=1"
+    },
+    {
+      "title": "prodaja kuće Mirijevo",
+      "location": "Beograd | Opština Zvezdara | Mirijevo | Predraga Vasića",
+      "kvadratura": "62 m2",
+      "price": "115.000 €",
+      "price_by_surface": "1.855 €/m2",
+      "publish_date": "11.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646029635",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaja-kuce-mirijevo/5425646029635?kid=1"
+    },
+    {
+      "title": "Hitna prodaja - kuća siva faza",
+      "location": "Beograd | Opština Čukarica | Velika Moštanica | Lipovačka",
+      "kvadratura": "174.34 m2",
+      "price": "90.000 €",
+      "price_by_surface": "516 €/m2",
+      "publish_date": "09.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646124278",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/hitna-prodaja---kuca-siva-faza/5425646124278?kid=4"
+    },
+    {
+      "title": "Renovirana spratna kuća sa pogledom na Dunav",
+      "location": "Beograd | Opština Grocka | Grocka (mesto) | Smederevski put",
+      "kvadratura": "125 m2",
+      "price": "139.000 €",
+      "price_by_surface": "1.112 €/m2",
+      "publish_date": "11.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425644871875",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/renovirana-spratna-kuca-sa-pogledom-na-dunav/5425644871875?kid=1"
+    },
+    {
+      "title": "Mladenovac selo, porodična kuća sa poslovnim prost",
+      "location": "Beograd | Opština Mladenovac | Mladenovac selo | Milutina Milankovića",
+      "kvadratura": "479 m2",
+      "price": "81.600 €",
+      "price_by_surface": "170 €/m2",
+      "publish_date": "10.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646027194",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mladenovac-selo-porodicna-kuca-sa-poslovnim-p/5425646027194?kid=1"
+    },
+    {
+      "title": "Kuća na Kosmaju, moze na KREDIT",
+      "location": "Beograd | Opština Mladenovac | Koraćica | Livadarska",
+      "kvadratura": "150 m2",
+      "price": "69.000 €",
+      "price_by_surface": "460 €/m2",
+      "publish_date": "25.09.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425645596356",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-na-kosmaju-moze-na-kredit/5425645596356?kid=4"
+    },
+    {
+      "title": "Kuca  270 m2 i magacin 250 m2",
+      "location": "Beograd | Opština Zemun | Plavi horizonti | Jovana Boškovića",
+      "kvadratura": "270 m2",
+      "price": "1.000 €",
+      "price_by_surface": "4 €/m2",
+      "publish_date": "08.10.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425645109587",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-270-m2-i-magacin-250-m2/5425645109587?kid=3"
+    },
+    {
+      "title": "Beograd, Đurinci, Kuća, 4.0, 148m2",
+      "location": "Beograd | Opština Sopot | Đurinci | ",
+      "kvadratura": "148 m2",
+      "price": "122.000 €",
+      "price_by_surface": "824 €/m2",
+      "publish_date": "10.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646024949",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd-djurinci-kuca-4-0-148m2/5425646024949?kid=1"
+    },
+    {
+      "title": "Porodična kuća u Boleču",
+      "location": "Beograd | Opština Grocka | Boleč | Maršala Tita",
+      "kvadratura": "95 m2",
+      "price": "130.000 €",
+      "price_by_surface": "1.368 €/m2",
+      "publish_date": "10.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646027128",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/porodicna-kuca-u-bolecu/5425646027128?kid=1"
+    },
+    {
+      "title": "Porodična uknjižena kuća u Velikom Borku",
+      "location": "Beograd | Opština Barajevo | Veliki Borak",
+      "kvadratura": "280 m2",
+      "price": "120.000 €",
+      "price_by_surface": "429 €/m2",
+      "publish_date": "11.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645613823",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/porodicna-uknjizena-kuca-u-velikom-borku/5425645613823?kid=1"
+    },
+    {
+      "title": "Splav na prodaju – Ada Ciganlija",
+      "location": "Beograd | Opština Čukarica | Ada Ciganlija | Ada Ciganlija",
+      "kvadratura": "30 m2",
+      "price": "83.000 €",
+      "price_by_surface": "2.767 €/m2",
+      "publish_date": "26.09.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646019643",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/splav-na-prodaju-ada-ciganlija/5425646019643?kid=3"
+    }
+  ],
+  "price_changed": [
+    {
+      "id": "5425646095345",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vikend-kuca-i-plac-5-ari-beograd-bolec-grocka/5425646095345?kid=3",
+      "title": "Vikend kuća i plac 5 ari Beograd Bolec, Grocka",
+      "location": "Beograd | Opština Grocka | Boleč | Palih boraca",
+      "kvadratura": "40 m2",
+      "price": "27.000 €",
+      "old_price": "31.000 €"
+    },
+    {
+      "id": "5425645525367",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vrcin-prodaja-uknjizene-porodicne-kuce-200-m2/5425645525367?kid=3",
+      "title": "Vrčin,prodaja uknjižene porodične kuće 200 m2,5ari",
+      "location": "Beograd | Opština Grocka | Vrčin | Avalska",
+      "kvadratura": "200 m2",
+      "price": "130.000 €",
+      "old_price": "122.000 €"
+    }
+  ]
+}
