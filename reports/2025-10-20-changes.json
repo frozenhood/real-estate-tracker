@@ -1,0 +1,201 @@
+{
+  "total_ads": 345,
+  "added": [
+    {
+      "title": "Grocka - 43m2+10a ID#24583",
+      "location": "Beograd | Opština Grocka | Grocka (mesto) | Mali prokop",
+      "kvadratura": "43 m2",
+      "price": "70.000 €",
+      "price_by_surface": "1.628 €/m2",
+      "publish_date": "20.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646210127",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/grocka---43m210a-id24583/5425646210127?kid=1"
+    },
+    {
+      "title": "Palilula, Borča, Psunjska, 62m2, Vertikala kuće",
+      "location": "Beograd | Opština Palilula | Borča | Psunjska",
+      "kvadratura": "62 m2",
+      "price": "90.000 €",
+      "price_by_surface": "1.452 €/m2",
+      "publish_date": "20.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646212761",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/palilula-borca-psunjska-62m2-vertikala-kuce/5425646212761?kid=1"
+    },
+    {
+      "title": "Avala, Pinosava, kuća",
+      "location": "Beograd | Opština Voždovac | Pinosava | Save Ristića",
+      "kvadratura": "34 m2",
+      "price": "83.000 €",
+      "price_by_surface": "2.441 €/m2",
+      "publish_date": "20.10.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646211830",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/avala-pinosava-kuca/5425646211830"
+    },
+    {
+      "title": "Zemun stan potkrovlje 103kvm",
+      "location": "Beograd | Opština Zemun | Kalvarija | Živka Petrovića",
+      "kvadratura": "103 m2",
+      "price": "103.000 €",
+      "price_by_surface": "1.000 €/m2",
+      "publish_date": "20.10.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646210675",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/zemun-stan-potkrovlje-103kvm/5425646210675?kid=1"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Stepojevac, Sedmog oktobra",
+      "location": "Beograd | Opština Lazarevac | Stepojevac | 7. oktobra",
+      "kvadratura": "41 m2",
+      "price": "120.000 €",
+      "price_by_surface": "2.927 €/m2",
+      "publish_date": "19.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645756684",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/stepojevac-sedmog-oktobra/5425645756684?kid=1"
+    },
+    {
+      "title": "Sojenica na Makisu",
+      "location": "Beograd | Opština Čukarica | Makiš | Savska bb",
+      "kvadratura": "120 m2",
+      "price": "85.000 €",
+      "price_by_surface": "708 €/m2",
+      "publish_date": "04.10.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425643356091",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/sojenica-na-makisu/5425643356091?kid=3"
+    },
+    {
+      "title": "Čukarica, Ada Ciganlija - splav kuća",
+      "location": "Beograd | Opština Čukarica | Ada Ciganlija | Čukarički rukavac",
+      "kvadratura": "85 m2",
+      "price": "79.000 €",
+      "price_by_surface": "929 €/m2",
+      "publish_date": "20.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645056389",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/cukarica-ada-ciganlija---splav-kuca/5425645056389?kid=1"
+    },
+    {
+      "title": "Grocka, 90m2 vikend kuća sa pogledom na Dunav",
+      "location": "Beograd | Opština Grocka | Grocka (mesto)",
+      "kvadratura": "90 m2",
+      "price": "70.000 €",
+      "price_by_surface": "778 €/m2",
+      "publish_date": "19.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646068214",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/grocka-90m2-vikend-kuca-sa-pogledom-na-dunav/5425646068214?kid=1"
+    },
+    {
+      "title": "Prodajem kuću u Vrbovnom kod Stepojevca.",
+      "location": "Beograd | Opština Lazarevac | Vrbovno | Novogradska",
+      "kvadratura": "90 m2",
+      "price": "50.000 €",
+      "price_by_surface": "556 €/m2",
+      "publish_date": "05.10.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646049216",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodajem-kucu-u-vrbovnom-kod-stepojevca/5425646049216?kid=3"
+    },
+    {
+      "title": "Mali Požarevac 4,0 kuća 92m2 na 22 ara, uknjižena",
+      "location": "Beograd | Opština Sopot | Mali Požarevac | Srećka Jovanovića",
+      "kvadratura": "92 m2",
+      "price": "112.000 €",
+      "price_by_surface": "1.217 €/m2",
+      "publish_date": "20.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645554233",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mali-pozarevac-4-0-kuca-92m2-na-22-ara-uknjiz/5425645554233?kid=1"
+    },
+    {
+      "title": "Lazarevac, Vrbovno 153m2",
+      "location": "Beograd | Opština Lazarevac | Vrbovno | Gočka",
+      "kvadratura": "153 m2",
+      "price": "82.000 €",
+      "price_by_surface": "536 €/m2",
+      "publish_date": "19.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645934120",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/lazarevac-vrbovno-153m2/5425645934120?kid=1"
+    },
+    {
+      "title": "Mladenovac selo, Milutina Milankovića, 479m2, 7,2a",
+      "location": "Beograd | Opština Mladenovac | Mladenovac selo | Milutina Milankovića",
+      "kvadratura": "479 m2",
+      "price": "81.600 €",
+      "price_by_surface": "170 €/m2",
+      "publish_date": "26.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425644524116",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mladenovac-selo-milutina-milankovica-479m2-7/5425644524116?kid=1"
+    },
+    {
+      "title": "Mladenovac, Jagnjilo",
+      "location": "Beograd | Opština Mladenovac | Jagnjilo | Stevana Filipovića",
+      "kvadratura": "60 m2",
+      "price": "59.000 €",
+      "price_by_surface": "983 €/m2",
+      "publish_date": "19.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425644963581",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mladenovac-jagnjilo/5425644963581?kid=1"
+    },
+    {
+      "title": "Eko kuca na placu od 50ari-Sopot-Popovic",
+      "location": "Beograd | Opština Sopot | Popović | Tihomira Čolića Badže",
+      "kvadratura": "140 m2",
+      "price": "90.000 €",
+      "price_by_surface": "643 €/m2",
+      "publish_date": "18.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646063873",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/eko-kuca-na-placu-od-50ari-sopot-popovic/5425646063873?kid=1"
+    },
+    {
+      "title": "Mali Popović - Tihomira Čolića Badže ID#1684",
+      "location": "Beograd | Opština Sopot | Popović | Tihomira Čolića-Badže",
+      "kvadratura": "52 m2",
+      "price": "38.000 €",
+      "price_by_surface": "731 €/m2",
+      "publish_date": "19.09.2025.",
+      "advertiser": "Agencija",
+      "id": "5425644475967",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mali-popovic---tihomira-colica-badze-id1684/5425644475967?kid=1"
+    }
+  ],
+  "price_changed": [
+    {
+      "id": "5425646122746",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/zemun-stan-2-0-vp/5425646122746?kid=1",
+      "title": "Zemun stan 2.0 VP",
+      "location": "Beograd | Opština Zemun | Kalvarija | Živka Petrovića 98b",
+      "kvadratura": "43 m2",
+      "price": "56.000 €",
+      "old_price": "64.500 €"
+    },
+    {
+      "id": "5425646093441",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/sopot-popovic-112m2-10-5a-uknjizeno/5425646093441?kid=1",
+      "title": "Sopot, Popovic, 112m2, 10.5a, uknjizeno",
+      "location": "Beograd | Opština Sopot | Popović | Kosovska",
+      "kvadratura": "112 m2",
+      "price": "86.000 €",
+      "old_price": "88.000 €"
+    },
+    {
+      "id": "5425646117297",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/zemun-stan-br-1-trosoban/5425646117297?kid=1",
+      "title": "Zemun stan  br .1 trosoban",
+      "location": "Beograd | Opština Zemun | Kalvarija | Živka Petrovića 98b",
+      "kvadratura": "62 m2",
+      "price": "68.200 €",
+      "old_price": "75.000 €"
+    }
+  ]
+}
