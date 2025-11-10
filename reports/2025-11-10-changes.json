@@ -1,0 +1,162 @@
+{
+  "total_ads": 312,
+  "added": [
+    {
+      "title": "Moderan dom sa stilom i velikim dvorištem",
+      "location": "Beograd | Opština Mladenovac | Granice | Milenka Zablaćanskog",
+      "kvadratura": "112 m2",
+      "price": "135.000 €",
+      "price_by_surface": "1.205 €/m2",
+      "publish_date": "08.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646019642",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/moderan-dom-sa-stilom-i-velikim-dvoristem/5425646019642?kid=1"
+    },
+    {
+      "title": "Splav kod Galovice na prodaju",
+      "location": "Beograd | Opština Novi Beograd | Blok 45 (TC Enjub) | Galovica",
+      "kvadratura": "60 m2",
+      "price": "40.000 €",
+      "price_by_surface": "667 €/m2",
+      "publish_date": "10.11.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646320263",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/splav-kod-galovice-na-prodaju/5425646320263?kid=1"
+    },
+    {
+      "title": "Modularna kuca gotova na prodaju",
+      "location": "Beograd | Opština Surčin | Dobanovci | Svetogorska",
+      "kvadratura": "24.09 m2",
+      "price": "17.000 €",
+      "price_by_surface": "706 €/m2",
+      "publish_date": "09.11.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646319091",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/modularna-kuca-gotova-na-prodaju/5425646319091?kid=3"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Obrenovac, zasebna kuća",
+      "location": "Beograd | Opština Obrenovac | Belo Polje | Tamnavska 2.deo",
+      "kvadratura": "294 m2",
+      "price": "129.000 €",
+      "price_by_surface": "439 €/m2",
+      "publish_date": "11.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646023027",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/obrenovac-zasebna-kuca/5425646023027?kid=1"
+    },
+    {
+      "title": "Kuca i plac",
+      "location": "Beograd | Opština Lazarevac | Leskovac | Leskovac",
+      "kvadratura": "87 m2",
+      "price": "50.000 €",
+      "price_by_surface": "575 €/m2",
+      "publish_date": "09.10.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646157840",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-i-plac/5425646157840?kid=1"
+    },
+    {
+      "title": "Porodična kuća u srcu prirode ID#7870",
+      "location": "Beograd | Opština Surčin | Progar | ",
+      "kvadratura": "114 m2",
+      "price": "135.000 €",
+      "price_by_surface": "1.184 €/m2",
+      "publish_date": "28.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645715198",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/porodicna-kuca-u-srcu-prirode-id7870/5425645715198?kid=1"
+    },
+    {
+      "title": "Kuća na vrhu Kosmaja Hitna Prodaja",
+      "location": "Beograd | Opština Mladenovac | Kosmaj | Kosmajskih boraca",
+      "kvadratura": "160 m2",
+      "price": "140.000 €",
+      "price_by_surface": "875 €/m2",
+      "publish_date": "10.10.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425645655833",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-na-vrhu-kosmaja-hitna-prodaja/5425645655833?kid=1"
+    },
+    {
+      "title": "Sopot Ralja dve porodične kuće sa garažom uknjižen",
+      "location": "Beograd | Opština Sopot | Ralja | Ljubivoja Gajića",
+      "kvadratura": "234 m2",
+      "price": "95.000 €",
+      "price_by_surface": "406 €/m2",
+      "publish_date": "03.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645770201",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/sopot-ralja-dve-porodicne-kuce-sa-garazom-ukn/5425645770201?kid=4"
+    },
+    {
+      "title": "Kuća Progar (25 min do Novi Beo),114m2 na 16.3 ari",
+      "location": "Beograd | Opština Surčin | Progar | Momira Pucarevića",
+      "kvadratura": "114 m2",
+      "price": "135.000 €",
+      "price_by_surface": "1.184 €/m2",
+      "publish_date": "02.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645993364",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-progar-25-min-do-novi-beo-114m2-na-16-3/5425645993364?kid=1"
+    },
+    {
+      "title": "Prodajem kuću u Draževcu",
+      "location": "Beograd | Opština Obrenovac | Draževac | Vodovodska",
+      "kvadratura": "90 m2",
+      "price": "45.000 €",
+      "price_by_surface": "500 €/m2",
+      "publish_date": "10.10.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646162583",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodajem-kucu-u-drazevcu/5425646162583?kid=1"
+    },
+    {
+      "title": "Kuća, Batajnica",
+      "location": "Beograd | Opština Zemun | Batajnica | Novosadska",
+      "kvadratura": "58 m2",
+      "price": "95.000 €",
+      "price_by_surface": "1.638 €/m2",
+      "publish_date": "10.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646162207",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-batajnica/5425646162207?kid=1"
+    },
+    {
+      "title": "Kuća Progar,useljiva-bez dodatnog ulaganja",
+      "location": "Beograd | Opština Surčin | Progar | Momira Pucarevića",
+      "kvadratura": "114 m2",
+      "price": "135.000 €",
+      "price_by_surface": "1.184 €/m2",
+      "publish_date": "26.10.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425645683695",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-progar-useljiva-bez-dodatnog-ulaganja/5425645683695?kid=1"
+    },
+    {
+      "title": "Kuća Petrovčić- centar",
+      "location": "Beograd | Opština Surčin | Petrovčić | Gavrilovićeva",
+      "kvadratura": "120 m2",
+      "price": "65.000 €",
+      "price_by_surface": "542 €/m2",
+      "publish_date": "06.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646011787",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-petrovcic--centar/5425646011787?kid=1"
+    },
+    {
+      "title": "Mladenovac, kuća 95m2",
+      "location": "Beograd | Opština Mladenovac | Mladenovac (mesto) | ",
+      "kvadratura": "95 m2",
+      "price": "85.000 €",
+      "price_by_surface": "895 €/m2",
+      "publish_date": "10.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645742027",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mladenovac-kuca-95m2/5425645742027?kid=1"
+    }
+  ],
+  "price_changed": []
+}
