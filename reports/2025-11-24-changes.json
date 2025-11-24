@@ -1,0 +1,203 @@
+{
+  "total_ads": 306,
+  "added": [
+    {
+      "title": "Kuća u Mladenovcu",
+      "location": "Beograd | Opština Mladenovac | Mladenovac (mesto) | Ljube Davidović 62",
+      "kvadratura": "98 m2",
+      "price": "77.000 €",
+      "price_by_surface": "786 €/m2",
+      "publish_date": "24.11.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646394839",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-mladenovcu/5425646394839?kid=1"
+    },
+    {
+      "title": "Oaza mira blizu grada ID#13048",
+      "location": "Beograd | Opština Palilula | Borča | Nebojše Popovića",
+      "kvadratura": "71 m2",
+      "price": "89.400 €",
+      "price_by_surface": "1.259 €/m2",
+      "publish_date": "24.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646394663",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/oaza-mira-blizu-grada-id13048/5425646394663?kid=1"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Vrčin,prodaja uknjižene porodične kuće 200 m2,5ari",
+      "location": "Beograd | Opština Grocka | Vrčin | Avalska",
+      "kvadratura": "200 m2",
+      "price": "130.000 €",
+      "price_by_surface": "650 €/m2",
+      "publish_date": "23.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645525367",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vrcin-prodaja-uknjizene-porodicne-kuce-200-m2/5425645525367?kid=1"
+    },
+    {
+      "title": "Obrenovac",
+      "location": "Beograd | Opština Obrenovac | Belo Polje | Belopoljska",
+      "kvadratura": "44 m2",
+      "price": "100.000 €",
+      "price_by_surface": "2.273 €/m2",
+      "publish_date": "23.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646086602",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/obrenovac/5425646086602?kid=1"
+    },
+    {
+      "title": "Kuća Begaljica Top video",
+      "location": "Beograd | Opština Grocka | Begaljica | Borisa Kidriča",
+      "kvadratura": "169 m2",
+      "price": "70.000 €",
+      "price_by_surface": "414 €/m2",
+      "publish_date": "24.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645952153",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-begaljica-top-video/5425645952153?kid=1"
+    },
+    {
+      "title": "Uknjižena kuća na 10 ari placa, fiksna cena",
+      "location": "Beograd | Opština Sopot | Kosmaj",
+      "kvadratura": "34 m2",
+      "price": "37.000 €",
+      "price_by_surface": "1.088 €/m2",
+      "publish_date": "17.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646178754",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/uknjizena-kuca-na-10-ari-placa-fiksna-cena/5425646178754?kid=4"
+    },
+    {
+      "title": "Prelepa kuća sa pogledom na Kosmaj, 146 m2, #11944",
+      "location": "Beograd | Opština Sopot | Nemenikuće | Partizanski put",
+      "kvadratura": "146 m2",
+      "price": "120.990 €",
+      "price_by_surface": "829 €/m2",
+      "publish_date": "23.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645405483",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prelepa-kuca-sa-pogledom-na-kosmaj-146-m2-119/5425645405483?kid=1"
+    },
+    {
+      "title": "Plac/ Zemljište sa kućom Grocka",
+      "location": "Beograd | Opština Grocka | Grocka (mesto) | Carev breg",
+      "kvadratura": "110 m2",
+      "price": "58.400 €",
+      "price_by_surface": "531 €/m2",
+      "publish_date": "08.11.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646309542",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/plac-zemljiste-sa-kucom-grocka/5425646309542?kid=4"
+    },
+    {
+      "title": "Kuća na 10a placa ID#131489",
+      "location": "Beograd | Opština Grocka | Vrčin | Stevana Sremca",
+      "kvadratura": "161 m2",
+      "price": "115.000 €",
+      "price_by_surface": "714 €/m2",
+      "publish_date": "24.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645471078",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-na-10a-placa-id131489/5425645471078?kid=1"
+    },
+    {
+      "title": "Kuća u centru Slanaca",
+      "location": "Beograd | Opština Palilula | Slanci | Moše Pijade",
+      "kvadratura": "56 m2",
+      "price": "97.000 €",
+      "price_by_surface": "1.732 €/m2",
+      "publish_date": "23.10.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646230128",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-centru-slanaca/5425646230128?kid=1"
+    },
+    {
+      "title": "Kosmaj - Drlupa, kuća 84m2, plac 20 ari",
+      "location": "Beograd | Opština Sopot | Kosmaj",
+      "kvadratura": "84 m2",
+      "price": "56.000 €",
+      "price_by_surface": "667 €/m2",
+      "publish_date": "23.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645661493",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kosmaj---drlupa-kuca-84m2-plac-20-ari/5425645661493?kid=1"
+    },
+    {
+      "title": "Sremčica, Beogradska, kuća 76m2, na 4,18 ari placa",
+      "location": "Beograd | Opština Čukarica | Sremčica | Beogradska",
+      "kvadratura": "76 m2",
+      "price": "120.000 €",
+      "price_by_surface": "1.579 €/m2",
+      "publish_date": "24.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645933973",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/sremcica-beogradska-kuca-76m2-na-4-18-ari-pla/5425645933973?kid=1"
+    },
+    {
+      "title": "Prodaja kuće Barajevo ID#1562",
+      "location": "Beograd | Opština Barajevo | Lisović | Aleksandra Radosavljevića",
+      "kvadratura": "181 m2",
+      "price": "95.000 €",
+      "price_by_surface": "525 €/m2",
+      "publish_date": "08.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646308668",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaja-kuce-barajevo-id1562/5425646308668?kid=4"
+    },
+    {
+      "title": "Kuca u Grockoj",
+      "location": "Beograd | Opština Grocka | Grocka (mesto) | Preradovićeva",
+      "kvadratura": "220 m2",
+      "price": "110.000 €",
+      "price_by_surface": "500 €/m2",
+      "publish_date": "15.11.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646349613",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-grockoj/5425646349613?kid=1"
+    },
+    {
+      "title": "Kuća Begaljica Video",
+      "location": "Beograd | Opština Grocka | Begaljica | Borisa Kidriča",
+      "kvadratura": "155 m2",
+      "price": "70.000 €",
+      "price_by_surface": "452 €/m2",
+      "publish_date": "24.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645951370",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-begaljica-video/5425645951370?kid=1"
+    },
+    {
+      "title": "Kuća Ledine, Rumska, 3.5, 55m2, 2 ara",
+      "location": "Beograd | Opština Novi Beograd | Ledine | Rumska",
+      "kvadratura": "55 m2",
+      "price": "88.000 €",
+      "price_by_surface": "1.600 €/m2",
+      "publish_date": "23.10.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645647462",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-ledine-rumska-3-5-55m2-2-ara/5425645647462?kid=1"
+    }
+  ],
+  "price_changed": [
+    {
+      "id": "5425645514489",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/barajevo-lisovic-2-kuce-58m2-41m2-20-ari-uknj/5425645514489?kid=1",
+      "title": "Barajevo-Lisović, 2 kuće 58m2, 41m2, 20 ari, uknj.",
+      "location": "Beograd | Opština Barajevo | Lisović | Ilije i Ivana Trifunovića",
+      "kvadratura": "99 m2",
+      "price": "59.000 €",
+      "old_price": "68.500 €"
+    },
+    {
+      "id": "5425645571132",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vinca-kuca-10028m26-8-ar-placa-id2039/5425645571132?kid=1",
+      "title": "Vinča, kuća 100+28m2+6.8 ar placa ID#2039",
+      "location": "Beograd | Opština Grocka | Vinča | Palih boraca",
+      "kvadratura": "100 m2",
+      "price": "100.000 €",
+      "old_price": "115.000 €"
+    }
+  ]
+}
