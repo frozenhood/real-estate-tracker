@@ -1,0 +1,92 @@
+{
+  "total_ads": 302,
+  "added": [],
+  "removed": [
+    {
+      "title": "Useljiva kuća u Konaticama | Obrenovac |",
+      "location": "Beograd | Opština Obrenovac | Konatice | Niška",
+      "kvadratura": "77 m2",
+      "price": "65.000 €",
+      "price_by_surface": "844 €/m2",
+      "publish_date": "06.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645862498",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/useljiva-kuca-u-konaticama-obrenovac/5425645862498?kid=1"
+    },
+    {
+      "title": "Prodajem kucu u najlepsem delu Kosmaja procitati o",
+      "location": "Beograd | Opština Sopot | Kosmaj | Kralja Dragutina",
+      "kvadratura": "110 m2",
+      "price": "109.500 €",
+      "price_by_surface": "995 €/m2",
+      "publish_date": "28.11.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425645654209",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodajem-kucu-u-najlepsem-delu-kosmaja-procit/5425645654209?kid=4"
+    },
+    {
+      "title": "Konatice, 100 m2 kuća, 127 ari zemljište",
+      "location": "Beograd | Opština Obrenovac | Konatice | kod crkve",
+      "kvadratura": "100 m2",
+      "price": "65.000 €",
+      "price_by_surface": "650 €/m2",
+      "publish_date": "05.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645397711",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/konatice-100-m2-kuca-127-ari-zemljiste/5425645397711?kid=1"
+    },
+    {
+      "title": "Vrčin – lep dom, odlična vikendica",
+      "location": "Beograd | Opština Grocka | Vrčin",
+      "kvadratura": "117 m2",
+      "price": "139.999 €",
+      "price_by_surface": "1.197 €/m2",
+      "publish_date": "05.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645894019",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vrcin-lep-dom-odlicna-vikendica/5425645894019?kid=1"
+    },
+    {
+      "title": "Novo!!! Lux vikendica sa bazenom",
+      "location": "Beograd | Opština Barajevo | Stara Lipovica | Fruškogorska",
+      "kvadratura": "121 m2",
+      "price": "139.900 €",
+      "price_by_surface": "1.156 €/m2",
+      "publish_date": "19.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646063607",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/novo-lux-vikendica-sa-bazenom/5425646063607?kid=1"
+    },
+    {
+      "title": "Black Friday AKCIJA kuća 90m2 na 5,5ari placa",
+      "location": "Beograd | Opština Sopot | Parcani | Vojvode Stepe",
+      "kvadratura": "90 m2",
+      "price": "140.000 €",
+      "price_by_surface": "1.556 €/m2",
+      "publish_date": "28.11.2025.",
+      "advertiser": "Investitor",
+      "id": "5425643877542",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/black-friday-akcija-kuca-90m2-na-5-5ari-placa/5425643877542?kid=4"
+    }
+  ],
+  "price_changed": [
+    {
+      "id": "5425645746241",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/sremcica-uknjizena-kuca-id1359/5425645746241?kid=1",
+      "title": "Sremčica, uknjižena kuća ID#1359",
+      "location": "Beograd | Opština Čukarica | Sremčica | Milke i Toše Rusa",
+      "kvadratura": "107 m2",
+      "price": "108.900 €",
+      "old_price": "119.900 €"
+    },
+    {
+      "id": "5425645423644",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-345m-10-ari-35min-do-centra-3-ulaza/5425645423644?kid=1",
+      "title": "Kuća 345m², 10 ari, 35min do centra, 3 ulaza",
+      "location": "Beograd | Opština Grocka | Zaklopača | Maršala Tita",
+      "kvadratura": "345 m2",
+      "price": "125.000 €",
+      "old_price": "130.000 €"
+    }
+  ]
+}
