@@ -1,0 +1,151 @@
+{
+  "total_ads": 297,
+  "added": [
+    {
+      "title": "Kuća 100m2 + 48 ari placa uz Ibarsku - Vrbovno",
+      "location": "Beograd | Opština Lazarevac | Vrbovno | Magistralna",
+      "kvadratura": "100 m2",
+      "price": "120.000 €",
+      "price_by_surface": "1.200 €/m2",
+      "publish_date": "08.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646467354",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-100m2-48-ari-placa-uz-ibarsku---vrbovno/5425646467354?kid=1"
+    },
+    {
+      "title": "Kuća za renoviranje ili rušenje",
+      "location": "Beograd | Opština Mladenovac | Kovačevac | Vojislava Damnjanovića",
+      "kvadratura": "50 m2",
+      "price": "19.000 €",
+      "price_by_surface": "380 €/m2",
+      "publish_date": "07.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646461559",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-za-renoviranje-ili-rusenje/5425646461559"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Vikendica i 16 ari: Prilika za ulaganje na Kosmaju",
+      "location": "Beograd | Opština Mladenovac | Kosmaj | Kosmajski put",
+      "kvadratura": "50 m2",
+      "price": "75.000 €",
+      "price_by_surface": "1.500 €/m2",
+      "publish_date": "22.11.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646268995",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vikendica-i-16-ari-prilika-za-ulaganje-na-kos/5425646268995?kid=3"
+    },
+    {
+      "title": "Ovča - kuća u centru",
+      "location": "Beograd | Opština Palilula | Ovča | Njegoševa",
+      "kvadratura": "188 m2",
+      "price": "115.000 €",
+      "price_by_surface": "612 €/m2",
+      "publish_date": "07.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645882891",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/ovca---kuca-u-centru/5425645882891?kid=1"
+    },
+    {
+      "title": "Prodaja,uknjizena Kuca U Zemunu Na 1,2 Ara Placa",
+      "location": "Beograd | Opština Zemun | Centar | Novogradska",
+      "kvadratura": "34 m2",
+      "price": "110.000 €",
+      "price_by_surface": "3.235 €/m2",
+      "publish_date": "07.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645988326",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaja-uknjizena-kuca-u-zemunu-na-1-2-ara-pl/5425645988326?kid=1"
+    },
+    {
+      "title": "Prodaje se kuca sa dva odvojena ulaza u Draževcu",
+      "location": "Beograd | Opština Obrenovac | Draževac | ",
+      "kvadratura": "134 m2",
+      "price": "129.000 €",
+      "price_by_surface": "963 €/m2",
+      "publish_date": "21.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646210176",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaje-se-kuca-sa-dva-odvojena-ulaza-u-draze/5425646210176?kid=4"
+    },
+    {
+      "title": "Beograd, Ovča, Kuća, 3.0, 80m2",
+      "location": "Beograd | Opština Palilula | Ovča | Pancevacki put",
+      "kvadratura": "80 m2",
+      "price": "99.000 €",
+      "price_by_surface": "1.238 €/m2",
+      "publish_date": "06.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645880533",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd-ovca-kuca-3-0-80m2/5425645880533?kid=1"
+    },
+    {
+      "title": "Kuća blizu centra Ripnja - 160m2 - gradska voda",
+      "location": "Beograd | Opština Voždovac | Ripanj | Lorne Feris",
+      "kvadratura": "160 m2",
+      "price": "58.000 €",
+      "price_by_surface": "362 €/m2",
+      "publish_date": "08.11.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646309498",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-blizu-centra-ripnja---160m2---gradska-vo/5425646309498?kid=1"
+    },
+    {
+      "title": "Moderna vikendica sa pogledom na reku, Brestovik",
+      "location": "Beograd | Opština Grocka | Brestovik | Partizanski put",
+      "kvadratura": "82 m2",
+      "price": "80.000 €",
+      "price_by_surface": "976 €/m2",
+      "publish_date": "07.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646303942",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/moderna-vikendica-sa-pogledom-na-reku-brestov/5425646303942"
+    },
+    {
+      "title": "Uknjižena kuća u centru, 5 ari plac",
+      "location": "Beograd | Opština Barajevo | Barajevo (mesto) | Vrelinska",
+      "kvadratura": "71 m2",
+      "price": "57.000 €",
+      "price_by_surface": "803 €/m2",
+      "publish_date": "07.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645812391",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/uknjizena-kuca-u-centru-5-ari-plac/5425645812391?kid=1"
+    },
+    {
+      "title": "Lipovica, LUX moderna kuća sa bazenom, 121m2",
+      "location": "Beograd | Opština Barajevo | Lipovica",
+      "kvadratura": "121 m2",
+      "price": "139.000 €",
+      "price_by_surface": "1.149 €/m2",
+      "publish_date": "07.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646305704",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/lipovica-lux-moderna-kuca-sa-bazenom-121m2/5425646305704?kid=1"
+    },
+    {
+      "title": "Kuća u Vrčinu",
+      "location": "Beograd | Opština Grocka | Vrčin",
+      "kvadratura": "90 m2",
+      "price": "92.000 €",
+      "price_by_surface": "1.022 €/m2",
+      "publish_date": "06.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645150101",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-vrcinu/5425645150101?kid=1"
+    },
+    {
+      "title": "Prodajem kuću na Zvezdari, praktično u parku!",
+      "location": "Beograd | Opština Zvezdara | Zvezdarska šuma | Oštreljska",
+      "kvadratura": "112 m2",
+      "price": "140.000 €",
+      "price_by_surface": "1.250 €/m2",
+      "publish_date": "05.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646005508",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodajem-kucu-na-zvezdari-prakticno-u-parku/5425646005508?kid=1"
+    }
+  ],
+  "price_changed": []
+}
