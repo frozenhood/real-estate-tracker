@@ -1,0 +1,161 @@
+{
+  "total_ads": 285,
+  "added": [],
+  "removed": [
+    {
+      "title": "Prodaja kuće",
+      "location": "Beograd | Opština Grocka | Zaklopača | Save Kovačevića",
+      "kvadratura": "160 m2",
+      "price": "49.000 €",
+      "price_by_surface": "306 €/m2",
+      "publish_date": "19.11.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646366783",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaja-kuce/5425646366783?kid=1"
+    },
+    {
+      "title": "Čukarica, Ada Ciganlija - splav kuća",
+      "location": "Beograd | Opština Čukarica | Ada Ciganlija | Čukarički rukavac",
+      "kvadratura": "85 m2",
+      "price": "79.000 €",
+      "price_by_surface": "929 €/m2",
+      "publish_date": "21.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645056389",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/cukarica-ada-ciganlija---splav-kuca/5425645056389?kid=1"
+    },
+    {
+      "title": "Mladenovac, Jagnjilo",
+      "location": "Beograd | Opština Mladenovac | Jagnjilo | Stevana Filipovića",
+      "kvadratura": "60 m2",
+      "price": "59.000 €",
+      "price_by_surface": "983 €/m2",
+      "publish_date": "20.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425644963581",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mladenovac-jagnjilo/5425644963581?kid=1"
+    },
+    {
+      "title": "Oblakovska ispod stadiona JNA 54m(27m) uknjižena",
+      "location": "Beograd | Opština Savski venac | Mostarska petlja | Oblakovska",
+      "kvadratura": "54 m2",
+      "price": "89.000 €",
+      "price_by_surface": "1.648 €/m2",
+      "publish_date": "20.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646376054",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/oblakovska-ispod-stadiona-jna-54m27m-uknjizen/5425646376054?kid=1"
+    },
+    {
+      "title": "Mala Moštanica, porodično gazdinstvo",
+      "location": "Beograd | Opština Obrenovac | Mala Moštanica | ",
+      "kvadratura": "128 m2",
+      "price": "123.000 €",
+      "price_by_surface": "961 €/m2",
+      "publish_date": "19.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645681072",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mala-mostanica-porodicno-gazdinstvo/5425645681072?kid=1"
+    },
+    {
+      "title": "Kosmaj, kuća i plac, uknjiženo ID#1411",
+      "location": "Beograd | Opština Sopot | Kosmaj | ",
+      "kvadratura": "243 m2",
+      "price": "44.900 €",
+      "price_by_surface": "185 €/m2",
+      "publish_date": "19.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646061336",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kosmaj-kuca-i-plac-uknjizeno-id1411/5425646061336?kid=1"
+    },
+    {
+      "title": "Stepojevac, Sedmog oktobra",
+      "location": "Beograd | Opština Lazarevac | Stepojevac | 7. oktobra",
+      "kvadratura": "41 m2",
+      "price": "120.000 €",
+      "price_by_surface": "2.927 €/m2",
+      "publish_date": "20.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645756684",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/stepojevac-sedmog-oktobra/5425645756684?kid=1"
+    },
+    {
+      "title": "Ratari - Dve porodične kuće na 26 ari placa",
+      "location": "Beograd | Opština Obrenovac | Ratari | Miroslava Mikerovića",
+      "kvadratura": "280 m2",
+      "price": "125.000 €",
+      "price_by_surface": "446 €/m2",
+      "publish_date": "21.11.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425645947103",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/ratari---dve-porodicne-kuce-na-26-ari-placa/5425645947103?kid=1"
+    },
+    {
+      "title": "Seosko domaćinstvo na sat vremena od Beograda",
+      "location": "Beograd | Opština Mladenovac | Velika Krsna | Staro selo",
+      "kvadratura": "200 m2",
+      "price": "65.000 €",
+      "price_by_surface": "325 €/m2",
+      "publish_date": "26.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645063479",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/seosko-domacinstvo-na-sat-vremena-od-beograda/5425645063479?kid=1"
+    },
+    {
+      "title": "Prodajem kucu u najlepsem delu Kosmaja procitati o",
+      "location": "Beograd | Opština Sopot | Kosmaj | Kralja Dragutina",
+      "kvadratura": "120 m2",
+      "price": "109.500 €",
+      "price_by_surface": "912 €/m2",
+      "publish_date": "12.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425645654209",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodajem-kucu-u-najlepsem-delu-kosmaja-procit/5425645654209?kid=4"
+    },
+    {
+      "title": "Kuća Barajevo Nenadovac ID#1524",
+      "location": "Beograd | Opština Barajevo | Nenadovac | Branislava Jovanovića",
+      "kvadratura": "78 m2",
+      "price": "75.000 €",
+      "price_by_surface": "962 €/m2",
+      "publish_date": "04.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645615466",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-barajevo-nenadovac-id1524/5425645615466?kid=3"
+    },
+    {
+      "title": "Uknjižena kuća i plac, Ralja! ID#1386",
+      "location": "Beograd | Opština Sopot | Ralja",
+      "kvadratura": "83 m2",
+      "price": "129.900 €",
+      "price_by_surface": "1.565 €/m2",
+      "publish_date": "20.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645926749",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/uknjizena-kuca-i-plac-ralja-id1386/5425645926749?kid=1"
+    },
+    {
+      "title": "montažna vikend kuća",
+      "location": "Beograd | Opština Grocka | Grocka (mesto) | Kralja Milana",
+      "kvadratura": "45 m2",
+      "price": "14.000 €",
+      "price_by_surface": "311 €/m2",
+      "publish_date": "21.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645685719",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/montazna-vikend-kuca/5425645685719?kid=1"
+    },
+    {
+      "title": "Sopot, Babe",
+      "location": "Beograd | Opština Sopot | Babe | Partizanski put",
+      "kvadratura": "234 m2",
+      "price": "90.000 €",
+      "price_by_surface": "385 €/m2",
+      "publish_date": "20.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645768874",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/sopot-babe/5425645768874?kid=1"
+    }
+  ],
+  "price_changed": []
+}
