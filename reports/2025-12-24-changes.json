@@ -1,0 +1,161 @@
+{
+  "total_ads": 289,
+  "added": [
+    {
+      "title": "Prodaje se kuća u Kovačevcu / Mladenovcu",
+      "location": "Beograd | Opština Mladenovac | Kovačevac | Vagarska",
+      "kvadratura": "54 m2",
+      "price": "65.000 €",
+      "price_by_surface": "1.204 €/m2",
+      "publish_date": "24.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646540917",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaje-se-kuca-u-kovacevcu-mladenovcu/5425646540917"
+    },
+    {
+      "title": "Kuća, Kotež",
+      "location": "Beograd | Opština Palilula | Kotež | Milanovačka",
+      "kvadratura": "130 m2",
+      "price": "140.000 €",
+      "price_by_surface": "1.077 €/m2",
+      "publish_date": "24.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646538871",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-kotez/5425646538871?kid=1"
+    },
+    {
+      "title": "Prodaja kuce sa dvoristem, Sremcica, 200m2, Id",
+      "location": "Beograd | Opština Čukarica | Sremčica | Gorskog Cara",
+      "kvadratura": "200 m2",
+      "price": "100.000 €",
+      "price_by_surface": "500 €/m2",
+      "publish_date": "23.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646534900",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaja-kuce-sa-dvoristem-sremcica-200m2-id/5425646534900?kid=1"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Sremčica, kuća",
+      "location": "Beograd | Opština Čukarica | Sremčica | Porodice Tričković",
+      "kvadratura": "258 m2",
+      "price": "79.000 €",
+      "price_by_surface": "306 €/m2",
+      "publish_date": "04.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645721578",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/sremcica-kuca/5425645721578?kid=1"
+    },
+    {
+      "title": "Kuća u Mladenovcu",
+      "location": "Beograd | Opština Mladenovac | Mladenovac (mesto) | Ljube Davidović 62",
+      "kvadratura": "98 m2",
+      "price": "77.000 €",
+      "price_by_surface": "786 €/m2",
+      "publish_date": "24.11.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646394839",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-mladenovcu/5425646394839?kid=1"
+    },
+    {
+      "title": "Kuca na Tresnji,  Avala",
+      "location": "Beograd | Opština Voždovac | Avala",
+      "kvadratura": "75 m2",
+      "price": "55.000 €",
+      "price_by_surface": "733 €/m2",
+      "publish_date": "06.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645815114",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-na-tresnji-avala/5425645815114?kid=1"
+    },
+    {
+      "title": "Voždovac, Tc Stadion - Dimitrija Marinkovića, 35m2",
+      "location": "Beograd | Opština Voždovac | TC Stadion | Dimitrija Marinkovića",
+      "kvadratura": "35 m2",
+      "price": "54.900 €",
+      "price_by_surface": "1.569 €/m2",
+      "publish_date": "16.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646494776",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vozdovac-tc-stadion---dimitrija-marinkovica-3/5425646494776?kid=1"
+    },
+    {
+      "title": "Porodična kuća i lokal video",
+      "location": "Beograd | Opština Grocka | Grocka (mesto) | Bulevar revolucije",
+      "kvadratura": "135 m2",
+      "price": "120.000 €",
+      "price_by_surface": "889 €/m2",
+      "publish_date": "23.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425644500090",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/porodicna-kuca-i-lokal-video/5425644500090?kid=1"
+    },
+    {
+      "title": "Barajevo-Guncati, Beogradska",
+      "location": "Beograd | Opština Barajevo | Guncati | Beogradska",
+      "kvadratura": "90 m2",
+      "price": "62.000 €",
+      "price_by_surface": "689 €/m2",
+      "publish_date": "16.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645640386",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/barajevo-guncati-beogradska/5425645640386?kid=4"
+    },
+    {
+      "title": "Kuća za renoviranje ili rušenje",
+      "location": "Beograd | Opština Mladenovac | Kovačevac | Vojislava Damnjanovića",
+      "kvadratura": "50 m2",
+      "price": "19.000 €",
+      "price_by_surface": "380 €/m2",
+      "publish_date": "07.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646461559",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-za-renoviranje-ili-rusenje/5425646461559"
+    },
+    {
+      "title": "Zvezdara",
+      "location": "Beograd | Opština Zvezdara | Cvetkova pijaca | Bulevar kralja Aleksandra",
+      "kvadratura": "70 m2",
+      "price": "137.000 €",
+      "price_by_surface": "1.957 €/m2",
+      "publish_date": "08.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646468007",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/zvezdara/5425646468007?kid=3"
+    },
+    {
+      "title": "Kuća, Vikendica, Grocka, Strazevica",
+      "location": "Beograd | Opština Grocka | Brestovik | Straževica",
+      "kvadratura": "110 m2",
+      "price": "41.000 €",
+      "price_by_surface": "373 €/m2",
+      "publish_date": "24.11.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646231251",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-vikendica-grocka-strazevica/5425646231251?kid=1"
+    },
+    {
+      "title": "RIPANJ centar, kuća sa 2 lokala i stanom, useljivo",
+      "location": "Beograd | Opština Voždovac | Ripanj | Avalska",
+      "kvadratura": "94 m2",
+      "price": "99.000 €",
+      "price_by_surface": "1.053 €/m2",
+      "publish_date": "23.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645912103",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/ripanj-centar-kuca-sa-2-lokala-i-stanom-uselj/5425645912103?kid=1"
+    }
+  ],
+  "price_changed": [
+    {
+      "id": "5425646399785",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/nemenikuce-sopot-id1366/5425646399785?kid=4",
+      "title": "Nemenikuće-Sopot ID#1366",
+      "location": "Beograd | Opština Sopot | Nemenikuće | Takovska",
+      "kvadratura": "54 m2",
+      "price": "57.500 €",
+      "old_price": "55.000 €"
+    }
+  ]
+}
