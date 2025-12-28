@@ -1,0 +1,128 @@
+{
+  "total_ads": 284,
+  "added": [
+    {
+      "title": "BARIČ 166m2 kuća pr+sprat 125000e",
+      "location": "Beograd | Opština Obrenovac | Barič | Milisava Čamdžije",
+      "kvadratura": "166 m2",
+      "price": "125.000 €",
+      "price_by_surface": "753 €/m2",
+      "publish_date": "27.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646556340",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/baric-166m2-kuca-prsprat-125000e/5425646556340?kid=1"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Kuća sa pogledom kao iz Bajke",
+      "location": "Beograd | Opština Barajevo | Manić | Ranka Ognjanovića",
+      "kvadratura": "80 m2",
+      "price": "37.000 €",
+      "price_by_surface": "462 €/m2",
+      "publish_date": "12.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646486773",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-sa-pogledom-kao-iz-bajke/5425646486773"
+    },
+    {
+      "title": "Voždovačka crkva, 60m2, pr, ta, hitno",
+      "location": "Beograd | Opština Voždovac | Voždovačka crkva | Gostivarska",
+      "kvadratura": "60 m2",
+      "price": "120.000 €",
+      "price_by_surface": "2.000 €/m2",
+      "publish_date": "29.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425637431295",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vozdovacka-crkva-60m2-pr-ta-hitno/5425637431295?kid=1"
+    },
+    {
+      "title": "Avala, uknjižena renovirana zasebna kuća na 7a ..",
+      "location": "Beograd | Opština Grocka | Vrčin | Zmaj Jovina",
+      "kvadratura": "51 m2",
+      "price": "89.000 €",
+      "price_by_surface": "1.745 €/m2",
+      "publish_date": "27.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645970435",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/avala-uknjizena-renovirana-zasebna-kuca-na-7a/5425645970435?kid=1"
+    },
+    {
+      "title": "Grocka centar, Bulevar oslobođenja",
+      "location": "Beograd | Opština Grocka | Grocka (mesto) | Bulevar oslobođenja",
+      "kvadratura": "89 m2",
+      "price": "100.000 €",
+      "price_by_surface": "1.124 €/m2",
+      "publish_date": "27.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645665374",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/grocka-centar-bulevar-oslobodjenja/5425645665374?kid=1"
+    },
+    {
+      "title": "Velika Moštanica Drage Jonaš 42m2",
+      "location": "Beograd | Opština Čukarica | Velika Moštanica | Drage Jonaš",
+      "kvadratura": "42 m2",
+      "price": "45.000 €",
+      "price_by_surface": "1.071 €/m2",
+      "publish_date": "27.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425644311003",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/velika-mostanica-drage-jonas-42m2/5425644311003?kid=1"
+    },
+    {
+      "title": "Prodaja kuće, Kosmaj 85m2",
+      "location": "Beograd | Opština Sopot | Kosmaj | Vrbnička česma",
+      "kvadratura": "85 m2",
+      "price": "79.000 €",
+      "price_by_surface": "929 €/m2",
+      "publish_date": "28.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646260224",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaja-kuce-kosmaj-85m2/5425646260224?kid=1"
+    },
+    {
+      "title": "Kuća u Nemenikućama, Kosmaj, Sopot ID#11725",
+      "location": "Beograd | Opština Sopot | Nemenikuće | ",
+      "kvadratura": "120 m2",
+      "price": "90.000 €",
+      "price_by_surface": "750 €/m2",
+      "publish_date": "28.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646413773",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-nemenikucama-kosmaj-sopot-id11725/5425646413773?kid=1"
+    },
+    {
+      "title": "Kuća u Boleču video",
+      "location": "Beograd | Opština Grocka | Boleč | Partizanska",
+      "kvadratura": "260 m2",
+      "price": "120.000 €",
+      "price_by_surface": "462 €/m2",
+      "publish_date": "26.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425642762743",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-bolecu-video/5425642762743?kid=1"
+    },
+    {
+      "title": "Kuća i plac 16 ari Grocka video",
+      "location": "Beograd | Opština Grocka | Grocka (mesto) | Simina",
+      "kvadratura": "128 m2",
+      "price": "140.000 €",
+      "price_by_surface": "1.094 €/m2",
+      "publish_date": "26.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425642869540",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-i-plac-16-ari-grocka-video/5425642869540?kid=1"
+    }
+  ],
+  "price_changed": [
+    {
+      "id": "5425645177898",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/apartmani-biser---nemenikuce---kosmaj/5425645177898?kid=1",
+      "title": "Apartmani Biser - Nemenikuće - Kosmaj",
+      "location": "Beograd | Opština Sopot | Kosmaj | ",
+      "kvadratura": "60 m2",
+      "price": "114.000 €",
+      "old_price": "109.000 €"
+    }
+  ]
+}
