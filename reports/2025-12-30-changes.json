@@ -1,0 +1,217 @@
+{
+  "total_ads": 278,
+  "added": [
+    {
+      "title": "Barajevo, Karaula prodaja",
+      "location": "Beograd | Opština Barajevo | Karaula",
+      "kvadratura": "188 m2",
+      "price": "69.000 €",
+      "price_by_surface": "367 €/m2",
+      "publish_date": "30.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646565530",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/barajevo-karaula-prodaja/5425646565530?kid=3"
+    },
+    {
+      "title": "Grocka - Zaklopača - 114m2+34a ID#24394",
+      "location": "Beograd | Opština Grocka | Zaklopača | Mostine",
+      "kvadratura": "114 m2",
+      "price": "139.999 €",
+      "price_by_surface": "1.228 €/m2",
+      "publish_date": "11.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646478862",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/grocka---zaklopaca---114m234a-id24394/5425646478862?kid=1"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Prodaja kuce sa dvoristem, Sremcica, 200m2, Id",
+      "location": "Beograd | Opština Čukarica | Sremčica | Gorskog Cara",
+      "kvadratura": "200 m2",
+      "price": "100.000 €",
+      "price_by_surface": "500 €/m2",
+      "publish_date": "23.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646534900",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaja-kuce-sa-dvoristem-sremcica-200m2-id/5425646534900?kid=1"
+    },
+    {
+      "title": "Kuća na prodaju u Ralji",
+      "location": "Beograd | Opština Sopot | Ralja | ",
+      "kvadratura": "145 m2",
+      "price": "140.000 €",
+      "price_by_surface": "966 €/m2",
+      "publish_date": "29.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646265031",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-na-prodaju-u-ralji/5425646265031?kid=1"
+    },
+    {
+      "title": "Konatice, kod Stepojevca, kuća od 147m2, plac 13a",
+      "location": "Beograd | Opština Obrenovac | Konatice",
+      "kvadratura": "147 m2",
+      "price": "70.000 €",
+      "price_by_surface": "476 €/m2",
+      "publish_date": "28.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645807538",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/konatice-kod-stepojevca-kuca-od-147m2-plac-13/5425645807538?kid=1"
+    },
+    {
+      "title": "Kuća u podnožju Kosmaja",
+      "location": "Beograd | Opština Mladenovac | Mala Vrbica | Alekse Zujovica bb",
+      "kvadratura": "183 m2",
+      "price": "99.000 €",
+      "price_by_surface": "541 €/m2",
+      "publish_date": "04.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425645481392",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-podnozju-kosmaja/5425645481392?kid=1"
+    },
+    {
+      "title": "Grocka - Zaklopača - 101m2 ID#20643",
+      "location": "Beograd | Opština Grocka | Zaklopača | Maršala Tita",
+      "kvadratura": "101 m2",
+      "price": "125.000 €",
+      "price_by_surface": "1.238 €/m2",
+      "publish_date": "28.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646260928",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/grocka---zaklopaca---101m2-id20643/5425646260928?kid=1"
+    },
+    {
+      "title": "Sopot, Nikole Simića ID#2188",
+      "location": "Beograd | Opština Sopot | Ropočevo | Nikole Simića",
+      "kvadratura": "84 m2",
+      "price": "45.000 €",
+      "price_by_surface": "536 €/m2",
+      "publish_date": "15.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645905733",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/sopot-nikole-simica-id2188/5425645905733?kid=1"
+    },
+    {
+      "title": "Uknjižena kuća | Lisović - Barajevo",
+      "location": "Beograd | Opština Barajevo | Lisović | Obrada Mihajlovića-Jastreba",
+      "kvadratura": "97 m2",
+      "price": "55.000 €",
+      "price_by_surface": "567 €/m2",
+      "publish_date": "28.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646418801",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/uknjizena-kuca-lisovic---barajevo/5425646418801?kid=1"
+    },
+    {
+      "title": "Ripanj, Trešnja ID#2955",
+      "location": "Beograd | Opština Voždovac | Avala | Trešnja",
+      "kvadratura": "105 m2",
+      "price": "72.000 €",
+      "price_by_surface": "686 €/m2",
+      "publish_date": "22.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646530073",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/ripanj-tresnja-id2955/5425646530073?kid=4"
+    },
+    {
+      "title": "Kuća u Nemenikućama, Kosmaj, Sopot ID#9925",
+      "location": "Beograd | Opština Sopot | Nemenikuće | ",
+      "kvadratura": "120 m2",
+      "price": "80.000 €",
+      "price_by_surface": "667 €/m2",
+      "publish_date": "30.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646078830",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-nemenikucama-kosmaj-sopot-id9925/5425646078830?kid=1"
+    },
+    {
+      "title": "Kuća u prelepom delu Sopota, Babe",
+      "location": "Beograd | Opština Sopot | Babe | Hajdučka",
+      "kvadratura": "50 m2",
+      "price": "129.000 €",
+      "price_by_surface": "2.580 €/m2",
+      "publish_date": "30.11.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646431221",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-prelepom-delu-sopota-babe/5425646431221?kid=1"
+    },
+    {
+      "title": "Kuća Vranić - Taraiš",
+      "location": "Beograd | Opština Barajevo | Vranić | Posavski partizana",
+      "kvadratura": "148 m2",
+      "price": "105.000 €",
+      "price_by_surface": "709 €/m2",
+      "publish_date": "28.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646142880",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-vranic---tarais/5425646142880?kid=1"
+    },
+    {
+      "title": "Naselje 13. Maj - Samo za keš kupce ID#7520",
+      "location": "Beograd | Opština Zemun | Zemun polje | ",
+      "kvadratura": "100 m2",
+      "price": "100.000 €",
+      "price_by_surface": "1.000 €/m2",
+      "publish_date": "26.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645500692",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/naselje-13-maj---samo-za-kes-kupce-id7520/5425645500692?kid=1"
+    },
+    {
+      "title": "Prvomajska, Gornji grad, Zemun ID#6358",
+      "location": "Beograd | Opština Zemun | Gornji grad | Prvomajska",
+      "kvadratura": "148 m2",
+      "price": "140.000 €",
+      "price_by_surface": "946 €/m2",
+      "publish_date": "29.11.2025.",
+      "advertiser": "Agencija",
+      "id": "5425644854851",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prvomajska-gornji-grad-zemun-id6358/5425644854851?kid=1"
+    },
+    {
+      "title": "Prodajem kucu u najlepsem delu Kosmaja procitati o",
+      "location": "Beograd | Opština Sopot | Kosmaj | Kralja Dragutina",
+      "kvadratura": "120 m2",
+      "price": "109.500 €",
+      "price_by_surface": "912 €/m2",
+      "publish_date": "22.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425645654209",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodajem-kucu-u-najlepsem-delu-kosmaja-procit/5425645654209?kid=4"
+    },
+    {
+      "title": "Odlična kuća sa velikim placem ID#7587",
+      "location": "Beograd | Opština Lazarevac | Lazarevac (mesto) | ",
+      "kvadratura": "285 m2",
+      "price": "89.000 €",
+      "price_by_surface": "312 €/m2",
+      "publish_date": "12.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645552459",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/odlicna-kuca-sa-velikim-placem-id7587/5425645552459?kid=1"
+    },
+    {
+      "title": "Vikendica - renovirana - 35min od Autokomande",
+      "location": "Beograd | Opština Grocka | Kamendol | Kamendolaska",
+      "kvadratura": "50 m2",
+      "price": "46.000 €",
+      "price_by_surface": "920 €/m2",
+      "publish_date": "15.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646495938",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vikendica---renovirana---35min-od-autokomande/5425646495938?kid=4"
+    },
+    {
+      "title": "Mala Ivanča, Sopot ID#6049",
+      "location": "Beograd | Opština Sopot | Mala Ivanča | ",
+      "kvadratura": "180 m2",
+      "price": "62.000 €",
+      "price_by_surface": "344 €/m2",
+      "publish_date": "06.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425644709152",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mala-ivanca-sopot-id6049/5425644709152?kid=1"
+    }
+  ],
+  "price_changed": []
+}
