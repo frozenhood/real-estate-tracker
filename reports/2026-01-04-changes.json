@@ -1,0 +1,140 @@
+{
+  "total_ads": 248,
+  "added": [
+    {
+      "title": "Leštane, dvospratna kuća ID#13508",
+      "location": "Beograd | Opština Grocka | Leštane | Kolubarska",
+      "kvadratura": "71 m2",
+      "price": "86.000 €",
+      "price_by_surface": "1.211 €/m2",
+      "publish_date": "03.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646582358",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/lestane-dvospratna-kuca-id13508/5425646582358?kid=1"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Retko u ponudi, uknjižena kuća u Borči",
+      "location": "Beograd | Opština Palilula | Borča | Popova Bara Nova  210",
+      "kvadratura": "151 m2",
+      "price": "138.000 €",
+      "price_by_surface": "914 €/m2",
+      "publish_date": "05.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646253026",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/retko-u-ponudi-uknjizena-kuca-u-borci/5425646253026?kid=1"
+    },
+    {
+      "title": "Obrenovac - Baljevac",
+      "location": "Beograd | Opština Obrenovac | Baljevac",
+      "kvadratura": "100 m2",
+      "price": "70.000 €",
+      "price_by_surface": "700 €/m2",
+      "publish_date": "04.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645593866",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/obrenovac---baljevac/5425645593866?kid=1"
+    },
+    {
+      "title": "Kosmaj-Drlupa - stara kuća",
+      "location": "Beograd | Opština Sopot | Drlupa | Vlastimira Vesića",
+      "kvadratura": "39 m2",
+      "price": "48.000 €",
+      "price_by_surface": "1.231 €/m2",
+      "publish_date": "04.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646089054",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kosmaj-drlupa---stara-kuca/5425646089054?kid=1"
+    },
+    {
+      "title": "Splav na prodaju – Sava, Ostružnica (15 km od BG)",
+      "location": "Beograd | Opština Čukarica | Ostružnica | Savska bb",
+      "kvadratura": "40 m2",
+      "price": "45.000 €",
+      "price_by_surface": "1.125 €/m2",
+      "publish_date": "04.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646447659",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/splav-na-prodaju-sava-ostruznica-15-km-od-bg/5425646447659"
+    },
+    {
+      "title": "Kuća, Batajnica",
+      "location": "Beograd | Opština Zemun | Batajnica | Nikole Demonje",
+      "kvadratura": "50 m2",
+      "price": "59.000 €",
+      "price_by_surface": "1.180 €/m2",
+      "publish_date": "05.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646451848",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-batajnica/5425646451848?kid=1"
+    },
+    {
+      "title": "Kuca 160 kvadrata, plac 22,7 ari",
+      "location": "Beograd | Opština Lazarevac | Stubica | Kolubarski trg",
+      "kvadratura": "160 m2",
+      "price": "107.000 €",
+      "price_by_surface": "669 €/m2",
+      "publish_date": "04.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646432267",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-160-kvadrata-plac-22-7-ari/5425646432267"
+    },
+    {
+      "title": "Kuća Mala Moštanica,uknjižena,132m2,plac 25a",
+      "location": "Beograd | Opština Obrenovac | Mala Moštanica | Drenjanski kraj",
+      "kvadratura": "132 m2",
+      "price": "119.000 €",
+      "price_by_surface": "902 €/m2",
+      "publish_date": "03.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646121517",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-mala-mostanica-uknjizena-132m2-plac-25a/5425646121517?kid=1"
+    },
+    {
+      "title": "Plac 22 ara, kuća 114m2struja, voda, kanalizacija",
+      "location": "Beograd | Opština Mladenovac | Amerić",
+      "kvadratura": "114 m2",
+      "price": "65.000 €",
+      "price_by_surface": "570 €/m2",
+      "publish_date": "03.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645690896",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/plac-22-ara-kuca-114m2struja-voda-kanalizacij/5425645690896?kid=1"
+    },
+    {
+      "title": "Kuća u Dučini, Kosmaj, Sopot ID#8625",
+      "location": "Beograd | Opština Sopot | Dučina | ",
+      "kvadratura": "144 m2",
+      "price": "59.000 €",
+      "price_by_surface": "410 €/m2",
+      "publish_date": "05.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646129459",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-ducini-kosmaj-sopot-id8625/5425646129459?kid=1"
+    },
+    {
+      "title": "Kuća u blizini jezera ID#133346",
+      "location": "Beograd | Opština Barajevo | Barajevo (mesto) | Jovana Dučića",
+      "kvadratura": "78 m2",
+      "price": "98.000 €",
+      "price_by_surface": "1.256 €/m2",
+      "publish_date": "04.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645728818",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-blizini-jezera-id133346/5425645728818?kid=1"
+    },
+    {
+      "title": "Baljevac, kuća 130m2, uknjižena",
+      "location": "Beograd | Opština Obrenovac | Baljevac | Božurova",
+      "kvadratura": "130 m2",
+      "price": "100.000 €",
+      "price_by_surface": "769 €/m2",
+      "publish_date": "05.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645933369",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/baljevac-kuca-130m2-uknjizena/5425645933369?kid=1"
+    }
+  ],
+  "price_changed": []
+}
