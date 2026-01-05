@@ -1,0 +1,151 @@
+{
+  "total_ads": 252,
+  "added": [
+    {
+      "title": "Kuca sa 4 etaze u Barajevu",
+      "location": "Beograd | Opština Barajevo | Barajevo (mesto) | Branislava A. Jovanovića",
+      "kvadratura": "400 m2",
+      "price": "100.000 €",
+      "price_by_surface": "250 €/m2",
+      "publish_date": "05.01.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425646591687",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-sa-4-etaze-u-barajevu/5425646591687?kid=1"
+    },
+    {
+      "title": "Grocka - Ritopek - 77m2+36a ID#24741",
+      "location": "Beograd | Opština Grocka | Ritopek | 29. novembra",
+      "kvadratura": "77 m2",
+      "price": "70.000 €",
+      "price_by_surface": "909 €/m2",
+      "publish_date": "05.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646590416",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/grocka---ritopek---77m236a-id24741/5425646590416?kid=1"
+    },
+    {
+      "title": "Ostružnica - Vojislava Đurića ID#2203",
+      "location": "Beograd | Opština Čukarica | Ostružnica | Vojislava Đurića",
+      "kvadratura": "70 m2",
+      "price": "99.000 €",
+      "price_by_surface": "1.414 €/m2",
+      "publish_date": "05.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646565685",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/ostruznica---vojislava-djurica-id2203/5425646565685"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Vrčin kuća na prodaju",
+      "location": "Beograd | Opština Grocka | Vrčin | Dunavska",
+      "kvadratura": "365 m2",
+      "price": "103.000 €",
+      "price_by_surface": "282 €/m2",
+      "publish_date": "29.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646462609",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vrcin-kuca-na-prodaju/5425646462609?kid=4"
+    },
+    {
+      "title": "Kuća, Batajnica",
+      "location": "Beograd | Opština Zemun | Batajnica | Nikole Demonje",
+      "kvadratura": "50 m2",
+      "price": "59.000 €",
+      "price_by_surface": "1.180 €/m2",
+      "publish_date": "05.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646451848",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-batajnica/5425646451848?kid=1"
+    },
+    {
+      "title": "Kuća u Dučini, Kosmaj, Sopot ID#8625",
+      "location": "Beograd | Opština Sopot | Dučina | ",
+      "kvadratura": "144 m2",
+      "price": "59.000 €",
+      "price_by_surface": "410 €/m2",
+      "publish_date": "05.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646129459",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-ducini-kosmaj-sopot-id8625/5425646129459?kid=1"
+    },
+    {
+      "title": "Surčin, Centar, Kuća, 207m2",
+      "location": "Beograd | Opština Surčin | Surčin (mesto) | ",
+      "kvadratura": "207 m2",
+      "price": "110.000 €",
+      "price_by_surface": "531 €/m2",
+      "publish_date": "06.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646287322",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/surcin-centar-kuca-207m2/5425646287322?kid=1"
+    },
+    {
+      "title": "Baljevac, kuća 130m2, uknjižena",
+      "location": "Beograd | Opština Obrenovac | Baljevac | Božurova",
+      "kvadratura": "130 m2",
+      "price": "100.000 €",
+      "price_by_surface": "769 €/m2",
+      "publish_date": "05.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645933369",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/baljevac-kuca-130m2-uknjizena/5425645933369?kid=1"
+    },
+    {
+      "title": "Bajkovita kućica u šumi ID#11843",
+      "location": "Beograd | Opština Barajevo | Šiljakovac",
+      "kvadratura": "70 m2",
+      "price": "49.900 €",
+      "price_by_surface": "713 €/m2",
+      "publish_date": "09.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645894119",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/bajkovita-kucica-u-sumi-id11843/5425645894119?kid=1"
+    },
+    {
+      "title": "Retko u ponudi, uknjižena kuća u Borči",
+      "location": "Beograd | Opština Palilula | Borča | Popova Bara Nova  210",
+      "kvadratura": "151 m2",
+      "price": "138.000 €",
+      "price_by_surface": "914 €/m2",
+      "publish_date": "05.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646253026",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/retko-u-ponudi-uknjizena-kuca-u-borci/5425646253026?kid=1"
+    },
+    {
+      "title": "Čukarica, Ada Ciganlija - kućica na vodi",
+      "location": "Beograd | Opština Čukarica | Ada Ciganlija",
+      "kvadratura": "145 m2",
+      "price": "110.000 €",
+      "price_by_surface": "759 €/m2",
+      "publish_date": "05.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425643509702",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/cukarica-ada-ciganlija---kucica-na-vodi/5425643509702?kid=1"
+    },
+    {
+      "title": "Kosmaj-Drlupa - stara kuća",
+      "location": "Beograd | Opština Sopot | Drlupa | Vlastimira Vesića",
+      "kvadratura": "39 m2",
+      "price": "48.000 €",
+      "price_by_surface": "1.231 €/m2",
+      "publish_date": "04.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646089054",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kosmaj-drlupa---stara-kuca/5425646089054?kid=1"
+    },
+    {
+      "title": "Splav na prodaju – Sava, Ostružnica (15 km od BG)",
+      "location": "Beograd | Opština Čukarica | Ostružnica | Savska bb",
+      "kvadratura": "40 m2",
+      "price": "45.000 €",
+      "price_by_surface": "1.125 €/m2",
+      "publish_date": "04.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646447659",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/splav-na-prodaju-sava-ostruznica-15-km-od-bg/5425646447659"
+    }
+  ],
+  "price_changed": []
+}
