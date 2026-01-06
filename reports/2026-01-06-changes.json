@@ -1,0 +1,52 @@
+{
+  "total_ads": 256,
+  "added": [
+    {
+      "title": "Kuća na padinama Kosmaja Velika Ivanča,85m2, 16ari",
+      "location": "Beograd | Opština Mladenovac | Velika Ivanča | Martovska",
+      "kvadratura": "85 m2",
+      "price": "89.000 €",
+      "price_by_surface": "1.047 €/m2",
+      "publish_date": "05.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646590629",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-na-padinama-kosmaja-velika-ivanca-85m2-1/5425646590629?kid=1"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Surčin, Centar, Kuća, 207m2",
+      "location": "Beograd | Opština Surčin | Surčin (mesto) | ",
+      "kvadratura": "207 m2",
+      "price": "110.000 €",
+      "price_by_surface": "531 €/m2",
+      "publish_date": "06.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646287322",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/surcin-centar-kuca-207m2/5425646287322?kid=1"
+    },
+    {
+      "title": "Bajkovita kućica u šumi ID#11843",
+      "location": "Beograd | Opština Barajevo | Šiljakovac",
+      "kvadratura": "70 m2",
+      "price": "49.900 €",
+      "price_by_surface": "713 €/m2",
+      "publish_date": "09.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645894119",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/bajkovita-kucica-u-sumi-id11843/5425645894119?kid=1"
+    },
+    {
+      "title": "Ovča (140+50)kvm + 3,77 ari",
+      "location": "Beograd | Opština Palilula | Ovča | Njegoševa",
+      "kvadratura": "69 m2",
+      "price": "115.000 €",
+      "price_by_surface": "1.667 €/m2",
+      "publish_date": "18.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646184576",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/ovca-14050kvm-3-77-ari/5425646184576?kid=1"
+    }
+  ],
+  "price_changed": []
+}
