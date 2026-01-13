@@ -1,0 +1,51 @@
+{
+  "total_ads": 265,
+  "added": [],
+  "removed": [
+    {
+      "title": "Mladenovac,  Međulužje",
+      "location": "Beograd | Opština Mladenovac | Međulužje | Vojvode Vićentija",
+      "kvadratura": "116 m2",
+      "price": "41.000 €",
+      "price_by_surface": "353 €/m2",
+      "publish_date": "10.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646609291",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mladenovac-medjuluzje/5425646609291?kid=1"
+    },
+    {
+      "title": "Kuća na Selters banji u Mladenovcu, dva stana",
+      "location": "Beograd | Opština Mladenovac | Selters Banja | Kajmakčalanska",
+      "kvadratura": "182 m2",
+      "price": "70.000 €",
+      "price_by_surface": "385 €/m2",
+      "publish_date": "12.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645156077",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-na-selters-banji-u-mladenovcu-dva-stana/5425645156077?kid=1"
+    },
+    {
+      "title": "Kuća u Mladenovcu",
+      "location": "Beograd | Opština Mladenovac | Granice | Žike Učitelja",
+      "kvadratura": "134 m2",
+      "price": "80.000 €",
+      "price_by_surface": "597 €/m2",
+      "publish_date": "12.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646178495",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-mladenovcu/5425646178495?kid=1"
+    },
+    {
+      "title": "Meljak, Lipovačka šuma,60m2+20m2,kuća na 10a placa",
+      "location": "Beograd | Opština Barajevo | Meljak | Veljka Vlahovića",
+      "kvadratura": "60 m2",
+      "price": "89.900 €",
+      "price_by_surface": "1.498 €/m2",
+      "publish_date": "29.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646337749",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/meljak-lipovacka-suma-60m220m2-kuca-na-10a-pl/5425646337749?kid=1"
+    }
+  ],
+  "price_changed": []
+}
