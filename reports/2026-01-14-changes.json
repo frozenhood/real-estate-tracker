@@ -1,0 +1,85 @@
+{
+  "total_ads": 271,
+  "added": [
+    {
+      "title": "Barič, 350 kvm, odlična prilika",
+      "location": "Beograd | Opština Obrenovac | Barič | Dalmatinska",
+      "kvadratura": "45 m2",
+      "price": "130.000 €",
+      "price_by_surface": "2.889 €/m2",
+      "publish_date": "14.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646626544",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/baric-350-kvm-odlicna-prilika/5425646626544?kid=1"
+    },
+    {
+      "title": "Manja kuća na prodaju",
+      "location": "Beograd | Opština Zvezdara | Veliki Mokri Lug | ",
+      "kvadratura": "42 m2",
+      "price": "54.000 €",
+      "price_by_surface": "1.286 €/m2",
+      "publish_date": "14.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646622732",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/manja-kuca-na-prodaju/5425646622732"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Mladenovac,  Međulužje",
+      "location": "Beograd | Opština Mladenovac | Međulužje | Vojvode Vićentija",
+      "kvadratura": "116 m2",
+      "price": "41.000 €",
+      "price_by_surface": "353 €/m2",
+      "publish_date": "10.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646609291",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mladenovac-medjuluzje/5425646609291?kid=1"
+    },
+    {
+      "title": "Barajevo - Baćevac",
+      "location": "Beograd | Opština Barajevo | Baćevac",
+      "kvadratura": "75 m2",
+      "price": "135.000 €",
+      "price_by_surface": "1.800 €/m2",
+      "publish_date": "15.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645623205",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/barajevo---bacevac/5425645623205?kid=1"
+    },
+    {
+      "title": "Mali Požarevac 4,0 kuća 92m2 na 22 ara, uknjižena",
+      "location": "Beograd | Opština Sopot | Mali Požarevac | Srećka Jovanovića",
+      "kvadratura": "92 m2",
+      "price": "112.000 €",
+      "price_by_surface": "1.217 €/m2",
+      "publish_date": "15.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645554233",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mali-pozarevac-4-0-kuca-92m2-na-22-ara-uknjiz/5425645554233?kid=1"
+    },
+    {
+      "title": "Meljak, Lipovačka šuma,60m2+20m2,kuća na 10a placa",
+      "location": "Beograd | Opština Barajevo | Meljak | Veljka Vlahovića",
+      "kvadratura": "60 m2",
+      "price": "89.900 €",
+      "price_by_surface": "1.498 €/m2",
+      "publish_date": "29.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646337749",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/meljak-lipovacka-suma-60m220m2-kuca-na-10a-pl/5425646337749?kid=1"
+    },
+    {
+      "title": "Porodična kuća 158m2, 6ari placa - Barič",
+      "location": "Beograd | Opština Obrenovac | Barič | Peđe Leovca",
+      "kvadratura": "158 m2",
+      "price": "115.000 €",
+      "price_by_surface": "728 €/m2",
+      "publish_date": "14.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646334601",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/porodicna-kuca-158m2-6ari-placa---baric/5425646334601?kid=1"
+    }
+  ],
+  "price_changed": []
+}
