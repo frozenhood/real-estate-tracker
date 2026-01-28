@@ -1,0 +1,137 @@
+{
+  "total_ads": 275,
+  "added": [
+    {
+      "title": "Beograd, Grocka, Malo Rujište (ID: 1178) ID#1178",
+      "location": "Beograd | Opština Grocka | Grocka (mesto) | Malo Rujište",
+      "kvadratura": "109 m2",
+      "price": "127.000 €",
+      "price_by_surface": "1.165 €/m2",
+      "publish_date": "08.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425645540637",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd-grocka-malo-rujiste-id-1178-id1178/5425645540637?kid=1"
+    },
+    {
+      "title": "Kuća u Konaticama",
+      "location": "Beograd | Opština Obrenovac | Konatice | Konatička",
+      "kvadratura": "100 m2",
+      "price": "60.000 €",
+      "price_by_surface": "600 €/m2",
+      "publish_date": "27.01.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425646688446",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-konaticama/5425646688446?kid=3"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Uknjižena kuća sa 4ara placa ID#1011",
+      "location": "Beograd | Opština Čukarica | Ostružnica | ",
+      "kvadratura": "37 m2",
+      "price": "27.000 €",
+      "price_by_surface": "730 €/m2",
+      "publish_date": "21.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646658838",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/uknjizena-kuca-sa-4ara-placa-id1011/5425646658838?kid=1"
+    },
+    {
+      "title": "Porodična kuća na dobroj lokaciji",
+      "location": "Beograd | Opština Grocka | Grocka (mesto)",
+      "kvadratura": "178 m2",
+      "price": "139.000 €",
+      "price_by_surface": "781 €/m2",
+      "publish_date": "29.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425645074453",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/porodicna-kuca-na-dobroj-lokaciji/5425645074453?kid=1"
+    },
+    {
+      "title": "Kuća i plac 16 ari Grocka video",
+      "location": "Beograd | Opština Grocka | Grocka (mesto) | Simina",
+      "kvadratura": "128 m2",
+      "price": "140.000 €",
+      "price_by_surface": "1.094 €/m2",
+      "publish_date": "29.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425642869540",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-i-plac-16-ari-grocka-video/5425642869540?kid=1"
+    },
+    {
+      "title": "Ušuškana kuća na 10 ari – savršena za porodični do",
+      "location": "Beograd | Opština Sopot | Mali Požarevac | Tije Simića",
+      "kvadratura": "57 m2",
+      "price": "58.500 €",
+      "price_by_surface": "1.026 €/m2",
+      "publish_date": "12.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646422741",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/ususkana-kuca-na-10-ari-savrsena-za-porodicni/5425646422741?kid=3"
+    },
+    {
+      "title": "Avala/Lipar/ odlicna lokacija",
+      "location": "Beograd | Opština Grocka | Vrčin | Vuka Karadzica",
+      "kvadratura": "150 m2",
+      "price": "125.000 €",
+      "price_by_surface": "833 €/m2",
+      "publish_date": "29.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646560477",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/avalalipar-odlicna-lokacija/5425646560477?kid=1"
+    },
+    {
+      "title": "Kuća Barajevo Nenadovac ID#1524",
+      "location": "Beograd | Opština Barajevo | Nenadovac | Branislava Jovanovića",
+      "kvadratura": "78 m2",
+      "price": "75.000 €",
+      "price_by_surface": "962 €/m2",
+      "publish_date": "12.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425645615466",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-barajevo-nenadovac-id1524/5425645615466?kid=3"
+    },
+    {
+      "title": "Grocka, kuća, blizina Dunava",
+      "location": "Beograd | Opština Grocka | Grocka (mesto) | Zavojice 3. prilaz",
+      "kvadratura": "160 m2",
+      "price": "50.000 €",
+      "price_by_surface": "312 €/m2",
+      "publish_date": "29.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425646537158",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/grocka-kuca-blizina-dunava/5425646537158?kid=1"
+    },
+    {
+      "title": "Kuća u Jagnjilu",
+      "location": "Beograd | Opština Mladenovac | Jagnjilo | Janka Badžaka",
+      "kvadratura": "40 m2",
+      "price": "37.000 €",
+      "price_by_surface": "925 €/m2",
+      "publish_date": "07.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425644777456",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-jagnjilu/5425644777456?kid=1"
+    }
+  ],
+  "price_changed": [
+    {
+      "id": "5425646626544",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/baric-350-kvm-odlicna-prilika/5425646626544?kid=1",
+      "title": "Barič, 350 kvm, odlična prilika",
+      "location": "Beograd | Opština Obrenovac | Barič | Dalmatinska",
+      "kvadratura": "45 m2",
+      "price": "120.000 €",
+      "old_price": "130.000 €"
+    },
+    {
+      "id": "5425645287573",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/na-prodaju-kuca-i-plac-na-kosmaju/5425645287573?kid=1",
+      "title": "Na prodaju kuca i plac na Kosmaju",
+      "location": "Beograd | Opština Sopot | Sibnica | Čede Pavlovića 76",
+      "kvadratura": "65 m2",
+      "price": "68.000 €",
+      "old_price": "76.000 €"
+    }
+  ]
+}
