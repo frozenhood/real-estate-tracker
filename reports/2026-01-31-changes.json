@@ -1,0 +1,104 @@
+{
+  "total_ads": 285,
+  "added": [
+    {
+      "title": "Avala-Vrčin, kuća 136m2, 22 ara, uknjižena",
+      "location": "Beograd | Opština Grocka | Vrčin",
+      "kvadratura": "136 m2",
+      "price": "100.000 €",
+      "price_by_surface": "735 €/m2",
+      "publish_date": "30.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646700829",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/avala-vrcin-kuca-136m2-22-ara-uknjizena/5425646700829?kid=1"
+    },
+    {
+      "title": "Kuća na prodaju u centru Mladenovca na 4,5 ari",
+      "location": "Beograd | Opština Mladenovac | Mladenovac (mesto) | Njegoševa",
+      "kvadratura": "97 m2",
+      "price": "135.000 €",
+      "price_by_surface": "1.392 €/m2",
+      "publish_date": "30.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646700658",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-na-prodaju-u-centru-mladenovca-na-4-5-ar/5425646700658?kid=3"
+    },
+    {
+      "title": "Kuca na Petlovom Brdu",
+      "location": "Beograd | Opština Rakovica | Petlovo brdo | Nićifora Ninkovića",
+      "kvadratura": "47 m2",
+      "price": "72.000 €",
+      "price_by_surface": "1.532 €/m2",
+      "publish_date": "31.01.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425646705412",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-na-petlovom-brdu/5425646705412"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Umka, potpuno sređena kuća 112m2, 8a placa",
+      "location": "Beograd | Opština Čukarica | Umka",
+      "kvadratura": "112 m2",
+      "price": "120.000 €",
+      "price_by_surface": "1.071 €/m2",
+      "publish_date": "30.12.2025.",
+      "advertiser": "Agencija",
+      "id": "5425646568270",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/umka-potpuno-sredjena-kuca-112m2-8a-placa/5425646568270?kid=1"
+    },
+    {
+      "title": "Kuca sa garazom i pomocnim objektom",
+      "location": "Beograd | Opština Grocka | Vrčin | Ive Lole Ribara",
+      "kvadratura": "120 m2",
+      "price": "110.000 €",
+      "price_by_surface": "917 €/m2",
+      "publish_date": "30.12.2025.",
+      "advertiser": "Vlasnik",
+      "id": "5425645684711",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-sa-garazom-i-pomocnim-objektom/5425645684711?kid=1"
+    },
+    {
+      "title": "Zvečka",
+      "location": "Beograd | Opština Obrenovac | Zvečka | Braće Lazića",
+      "kvadratura": "130 m2",
+      "price": "109.000 €",
+      "price_by_surface": "838 €/m2",
+      "publish_date": "20.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425645375272",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/zvecka/5425645375272?kid=1"
+    },
+    {
+      "title": "Top prilika! Tri kuće na placu od 186 ari",
+      "location": "Beograd | Opština Sopot | Kosmaj",
+      "kvadratura": "100 m2",
+      "price": "125.000 €",
+      "price_by_surface": "1.250 €/m2",
+      "publish_date": "22.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646663582",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/top-prilika-tri-kuce-na-placu-od-186-ari/5425646663582?kid=4"
+    }
+  ],
+  "price_changed": [
+    {
+      "id": "5425646148612",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/grocka-dubocaj-86-m2/5425646148612?kid=4",
+      "title": "Grocka, Dubočaj, 86 m2",
+      "location": "Beograd | Opština Grocka | Grocka (mesto) | Dubočaj naselje",
+      "kvadratura": "86 m2",
+      "price": "44.900 €",
+      "old_price": "51.500 €"
+    },
+    {
+      "id": "5425645473245",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/spratna-kompletno-zavrsena/5425645473245?kid=3",
+      "title": "Spratna, kompletno završena",
+      "location": "Beograd | Opština Palilula | Borča",
+      "kvadratura": "162 m2",
+      "price": "138.000 €",
+      "old_price": "135.000 €"
+    }
+  ]
+}
