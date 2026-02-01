@@ -1,0 +1,73 @@
+{
+  "total_ads": 282,
+  "added": [
+    {
+      "title": "Petrovčić, Tolinačka ulica, kuća na prodaju",
+      "location": "Beograd | Opština Surčin | Petrovčić | Tolinačka",
+      "kvadratura": "190 m2",
+      "price": "130.000 €",
+      "price_by_surface": "684 €/m2",
+      "publish_date": "31.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646706279",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/petrovcic-tolinacka-ulica-kuca-na-prodaju/5425646706279?kid=1"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Vikendica 81,46 m2 Sopot,plac 18,49 ari",
+      "location": "Beograd | Opština Sopot | Sopot (mesto) | Kneza Mihaila",
+      "kvadratura": "81.46 m2",
+      "price": "50.000 €",
+      "price_by_surface": "614 €/m2",
+      "publish_date": "02.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425644593416",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vikendica-81-46-m2-sopot-plac-18-49-ari/5425644593416?kid=1"
+    },
+    {
+      "title": "Barajevo, Beli labud - Hrastova",
+      "location": "Beograd | Opština Barajevo | Barajevo (mesto) | Hrastova",
+      "kvadratura": "124 m2",
+      "price": "122.000 €",
+      "price_by_surface": "984 €/m2",
+      "publish_date": "02.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425643813098",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/barajevo-beli-labud---hrastova/5425643813098?kid=1"
+    },
+    {
+      "title": "Kuća Barič",
+      "location": "Beograd | Opština Obrenovac | Barič | Šeste vojvodjanske brigade",
+      "kvadratura": "65 m2",
+      "price": "82.000 €",
+      "price_by_surface": "1.262 €/m2",
+      "publish_date": "16.01.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425646638790",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-baric/5425646638790"
+    },
+    {
+      "title": "Zvezdara, Olimp",
+      "location": "Beograd | Opština Zvezdara | Cvetkova pijaca | Bulevar kralja Aleksandra",
+      "kvadratura": "70 m2",
+      "price": "137.000 €",
+      "price_by_surface": "1.957 €/m2",
+      "publish_date": "17.01.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425646642414",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/zvezdara-olimp/5425646642414?kid=3"
+    }
+  ],
+  "price_changed": [
+    {
+      "id": "5425645473245",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/spratna-kompletno-zavrsena/5425645473245?kid=3",
+      "title": "Spratna, kompletno završena",
+      "location": "Beograd | Opština Palilula | Borča",
+      "kvadratura": "162 m2",
+      "price": "138.000 €",
+      "old_price": "135.000 €"
+    }
+  ]
+}
