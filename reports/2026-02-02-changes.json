@@ -1,0 +1,106 @@
+{
+  "total_ads": 288,
+  "added": [
+    {
+      "title": "Moderna vikendica u Barajevu sa placem",
+      "location": "Beograd | Opština Barajevo | Baćevac",
+      "kvadratura": "90 m2",
+      "price": "115.000 €",
+      "price_by_surface": "1.278 €/m2",
+      "publish_date": "02.02.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646712531",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/moderna-vikendica-u-barajevu-sa-placem/5425646712531?kid=1"
+    },
+    {
+      "title": "Kuća u Vraniću",
+      "location": "Beograd | Opština Barajevo | Vranić | Milosava Đorića Zoke",
+      "kvadratura": "300 m2",
+      "price": "139.000 €",
+      "price_by_surface": "463 €/m2",
+      "publish_date": "02.02.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646713496",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-vranicu/5425646713496"
+    },
+    {
+      "title": "Seosko domaćinstvo u Stepojevcu",
+      "location": "Beograd | Opština Lazarevac | Stepojevac | IV Vojvođanska",
+      "kvadratura": "50 m2",
+      "price": "70.000 €",
+      "price_by_surface": "1.400 €/m2",
+      "publish_date": "02.02.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646712536",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/seosko-domacinstvo-u-stepojevcu/5425646712536?kid=1"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Vikendica 81,46 m2 Sopot,plac 18,49 ari",
+      "location": "Beograd | Opština Sopot | Sopot (mesto) | Kneza Mihaila",
+      "kvadratura": "81.46 m2",
+      "price": "50.000 €",
+      "price_by_surface": "614 €/m2",
+      "publish_date": "02.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425644593416",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vikendica-81-46-m2-sopot-plac-18-49-ari/5425644593416?kid=1"
+    },
+    {
+      "title": "Zvezdara, Olimp",
+      "location": "Beograd | Opština Zvezdara | Cvetkova pijaca | Bulevar kralja Aleksandra",
+      "kvadratura": "70 m2",
+      "price": "137.000 €",
+      "price_by_surface": "1.957 €/m2",
+      "publish_date": "17.01.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425646642414",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/zvezdara-olimp/5425646642414?kid=3"
+    },
+    {
+      "title": "Kuća Barič",
+      "location": "Beograd | Opština Obrenovac | Barič | Šeste vojvodjanske brigade",
+      "kvadratura": "65 m2",
+      "price": "82.000 €",
+      "price_by_surface": "1.262 €/m2",
+      "publish_date": "16.01.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425646638790",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-baric/5425646638790"
+    },
+    {
+      "title": "Barajevo, Beli labud - Hrastova",
+      "location": "Beograd | Opština Barajevo | Barajevo (mesto) | Hrastova",
+      "kvadratura": "124 m2",
+      "price": "122.000 €",
+      "price_by_surface": "984 €/m2",
+      "publish_date": "02.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425643813098",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/barajevo-beli-labud---hrastova/5425643813098?kid=1"
+    },
+    {
+      "title": "Vikendica - renovirana - 35min od Autokomande",
+      "location": "Beograd | Opština Grocka | Kamendol | Kamendolaska",
+      "kvadratura": "50 m2",
+      "price": "46.000 €",
+      "price_by_surface": "920 €/m2",
+      "publish_date": "26.01.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425646495938",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vikendica---renovirana---35min-od-autokomande/5425646495938?kid=4"
+    }
+  ],
+  "price_changed": [
+    {
+      "id": "5425645594314",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vikendica-na-kosmaju---14-ari-placa/5425645594314?kid=1",
+      "title": "Vikendica na Kosmaju - 14 ari placa",
+      "location": "Beograd | Opština Sopot | Kosmaj | Milije Uroševića",
+      "kvadratura": "37 m2",
+      "price": "65.000 €",
+      "old_price": "69.000 €"
+    }
+  ]
+}
