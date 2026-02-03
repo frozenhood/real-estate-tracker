@@ -1,0 +1,106 @@
+{
+  "total_ads": 284,
+  "added": [
+    {
+      "title": "Odlicna kuca u Lestanima-bez provizije",
+      "location": "Beograd | Opština Grocka | Leštane | Maršala Tita",
+      "kvadratura": "107 m2",
+      "price": "110.000 €",
+      "price_by_surface": "1.028 €/m2",
+      "publish_date": "03.02.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646718443",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/odlicna-kuca-u-lestanima-bez-provizije/5425646718443?kid=4"
+    }
+  ],
+  "removed": [
+    {
+      "title": "50 ari+ Kuca, Gradjevinsko, Uknjizeno",
+      "location": "Beograd | Opština Sopot | Popović | Tihomira Čolića Badže",
+      "kvadratura": "120 m2",
+      "price": "90.000 €",
+      "price_by_surface": "750 €/m2",
+      "publish_date": "03.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646433986",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/50-ari-kuca-gradjevinsko-uknjizeno/5425646433986?kid=1"
+    },
+    {
+      "title": "Kuća 58 m2 ,plac 7,19 ari Kosmaj,Rogača",
+      "location": "Beograd | Opština Sopot | Rogača | Kosmajska",
+      "kvadratura": "58 m2",
+      "price": "109.000 €",
+      "price_by_surface": "1.879 €/m2",
+      "publish_date": "04.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646283068",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-58-m2-plac-7-19-ari-kosmaj-rogaca/5425646283068?kid=1"
+    },
+    {
+      "title": "Kuca sa 4 etaze u Barajevu",
+      "location": "Beograd | Opština Barajevo | Barajevo (mesto) | Branislava A. Jovanovića",
+      "kvadratura": "400 m2",
+      "price": "100.000 €",
+      "price_by_surface": "250 €/m2",
+      "publish_date": "05.01.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425646591687",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-sa-4-etaze-u-barajevu/5425646591687?kid=1"
+    },
+    {
+      "title": "Vikendica - renovirana - 35min od Autokomande",
+      "location": "Beograd | Opština Grocka | Kamendol | Kamendolaska",
+      "kvadratura": "50 m2",
+      "price": "46.000 €",
+      "price_by_surface": "920 €/m2",
+      "publish_date": "26.01.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425646495938",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vikendica---renovirana---35min-od-autokomande/5425646495938?kid=4"
+    },
+    {
+      "title": "15 ari, Kuca, Gradjevinsko, Uknjizeno",
+      "location": "Beograd | Opština Sopot | Popović | Janka Sekulića",
+      "kvadratura": "80 m2",
+      "price": "35.000 €",
+      "price_by_surface": "438 €/m2",
+      "publish_date": "03.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646434098",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/15-ari-kuca-gradjevinsko-uknjizeno/5425646434098?kid=1"
+    },
+    {
+      "title": "38 ari, Kuca, Gradjevinsko, Uknjizeno",
+      "location": "Beograd | Opština Sopot | Popović | Tihomira Čolića Badže",
+      "kvadratura": "100 m2",
+      "price": "70.000 €",
+      "price_by_surface": "700 €/m2",
+      "publish_date": "03.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646434096",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/38-ari-kuca-gradjevinsko-uknjizeno/5425646434096?kid=1"
+    },
+    {
+      "title": "Kuca Nova, Plac, Uknjizeno, bazen",
+      "location": "Beograd | Opština Sopot | Popović | Dese Marković",
+      "kvadratura": "140 m2",
+      "price": "140.000 €",
+      "price_by_surface": "1.000 €/m2",
+      "publish_date": "03.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646255888",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-nova-plac-uknjizeno-bazen/5425646255888?kid=1"
+    }
+  ],
+  "price_changed": [
+    {
+      "id": "5425645594314",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vikendica-na-kosmaju---14-ari-placa/5425645594314?kid=1",
+      "title": "Vikendica na Kosmaju - 14 ari placa",
+      "location": "Beograd | Opština Sopot | Kosmaj | Milije Uroševića",
+      "kvadratura": "37 m2",
+      "price": "65.000 €",
+      "old_price": "69.000 €"
+    }
+  ]
+}
