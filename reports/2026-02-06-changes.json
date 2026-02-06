@@ -1,0 +1,115 @@
+{
+  "total_ads": 291,
+  "added": [
+    {
+      "title": "Sopot, uknjižena kuća 61m2 na 12 ari placa",
+      "location": "Beograd | Opština Sopot | Nemenikuće",
+      "kvadratura": "61 m2",
+      "price": "80.000 €",
+      "price_by_surface": "1.311 €/m2",
+      "publish_date": "05.02.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646728240",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/sopot-uknjizena-kuca-61m2-na-12-ari-placa/5425646728240?kid=4"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Modularna kuca gotova na prodaju",
+      "location": "Beograd | Opština Surčin | Dobanovci | Svetogorska",
+      "kvadratura": "24.09 m2",
+      "price": "16.000 €",
+      "price_by_surface": "664 €/m2",
+      "publish_date": "05.01.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425646319091",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/modularna-kuca-gotova-na-prodaju/5425646319091?kid=1"
+    },
+    {
+      "title": "Vranić, kuća 72+24+12m2, 15ari ID#8512",
+      "location": "Beograd | Opština Barajevo | Vranić",
+      "kvadratura": "72 m2",
+      "price": "85.000 €",
+      "price_by_surface": "1.181 €/m2",
+      "publish_date": "28.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425644725566",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vranic-kuca-722412m2-15ari-id8512/5425644725566?kid=1"
+    },
+    {
+      "title": "Moderna vikendica u Barajevu sa placem",
+      "location": "Beograd | Opština Barajevo | Baćevac",
+      "kvadratura": "90 m2",
+      "price": "115.000 €",
+      "price_by_surface": "1.278 €/m2",
+      "publish_date": "02.02.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646712531",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/moderna-vikendica-u-barajevu-sa-placem/5425646712531?kid=1"
+    },
+    {
+      "title": "Tresije, savršena lepota,  kuća, 20 ari, uknjiženo",
+      "location": "Beograd | Opština Sopot | Nemenikuće | Brane Aksentijevića",
+      "kvadratura": "98 m2",
+      "price": "124.900 €",
+      "price_by_surface": "1.274 €/m2",
+      "publish_date": "30.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646301136",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/tresije-savrsena-lepota-kuca-20-ari-uknjizeno/5425646301136?kid=4"
+    },
+    {
+      "title": "Obrenovac, Konatice, trosobna, prizemna kuća",
+      "location": "Beograd | Opština Obrenovac | Konatice | Svetomira Belića",
+      "kvadratura": "72 m2",
+      "price": "69.900 €",
+      "price_by_surface": "971 €/m2",
+      "publish_date": "20.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646657269",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/obrenovac-konatice-trosobna-prizemna-kuca/5425646657269?kid=3"
+    },
+    {
+      "title": "Čukarica, Ada Ciganlija - kućica na vodi",
+      "location": "Beograd | Opština Čukarica | Ada Ciganlija",
+      "kvadratura": "145 m2",
+      "price": "110.000 €",
+      "price_by_surface": "759 €/m2",
+      "publish_date": "06.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425643509702",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/cukarica-ada-ciganlija---kucica-na-vodi/5425643509702?kid=1"
+    },
+    {
+      "title": "Imanje 1.86ha na Kosmaju",
+      "location": "Beograd | Opština Sopot | Kosmaj | Crkvena",
+      "kvadratura": "100 m2",
+      "price": "125.000 €",
+      "price_by_surface": "1.250 €/m2",
+      "publish_date": "22.01.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425643809847",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/imanje-1-86ha-na-kosmaju/5425643809847?kid=4"
+    }
+  ],
+  "price_changed": [
+    {
+      "id": "5425646022359",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-87m-na-25min-voznje-od-beograda-plac-8-1/5425646022359?kid=1",
+      "title": "Kuća 87m² na 25min vožnje od Beograda, plac 8.17аr",
+      "location": "Beograd | Opština Voždovac | Ripanj",
+      "kvadratura": "87 m2",
+      "price": "140.000 €",
+      "old_price": "114.000 €"
+    },
+    {
+      "id": "5425646607039",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/porodicna-kuca-u-centru-ralje---kvalitetna-gr/5425646607039?kid=3",
+      "title": "Porodična kuća u centru Ralje - Kvalitetna gradnja",
+      "location": "Beograd | Opština Sopot | Ralja",
+      "kvadratura": "125 m2",
+      "price": "110.000 €",
+      "old_price": "125.000 €"
+    }
+  ]
+}
