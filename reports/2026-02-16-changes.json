@@ -1,0 +1,105 @@
+{
+  "total_ads": 279,
+  "added": [],
+  "removed": [
+    {
+      "title": "Prelepa 2.0 kuća u Mirijevu",
+      "location": "Beograd | Opština Zvezdara | Mirijevo | Save Kovačevića",
+      "kvadratura": "65 m2",
+      "price": "127.000 €",
+      "price_by_surface": "1.954 €/m2",
+      "publish_date": "16.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425644308616",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prelepa-2-0-kuca-u-mirijevu/5425644308616?kid=1"
+    },
+    {
+      "title": "Nova kuća u Borči",
+      "location": "Beograd | Opština Palilula | Borča | Lotosa",
+      "kvadratura": "58 m2",
+      "price": "65.000 €",
+      "price_by_surface": "1.121 €/m2",
+      "publish_date": "16.01.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425646637641",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/nova-kuca-u-borci/5425646637641?kid=1"
+    },
+    {
+      "title": "Kuca na Kosmaju u naselju Blueberry Hills",
+      "location": "Beograd | Opština Sopot | Kosmaj | Dragomira Velikića",
+      "kvadratura": "100 m2",
+      "price": "120.000 €",
+      "price_by_surface": "1.200 €/m2",
+      "publish_date": "14.02.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646118110",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-na-kosmaju-u-naselju-blueberry-hills/5425646118110?kid=1"
+    },
+    {
+      "title": "Kuća u Baćevcu od 95m2 na 42 ari placa ID#5533",
+      "location": "Beograd | Opština Barajevo | Baćevac | Živojina Katića-Žike",
+      "kvadratura": "95 m2",
+      "price": "86.000 €",
+      "price_by_surface": "905 €/m2",
+      "publish_date": "17.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646478817",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-bacevcu-od-95m2-na-42-ari-placa-id5533/5425646478817?kid=1"
+    },
+    {
+      "title": "Konatice kod Obrenovca, kuća",
+      "location": "Beograd | Opština Obrenovac | Konatice | Aluge",
+      "kvadratura": "73 m2",
+      "price": "79.000 €",
+      "price_by_surface": "1.082 €/m2",
+      "publish_date": "16.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425645951942",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/konatice-kod-obrenovca-kuca/5425645951942?kid=1"
+    },
+    {
+      "title": "Velika Moštanica, Lipovačka, 219m2",
+      "location": "Beograd | Opština Čukarica | Velika Moštanica | Lipovačka 1. deo",
+      "kvadratura": "219 m2",
+      "price": "120.000 €",
+      "price_by_surface": "548 €/m2",
+      "publish_date": "16.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425644380494",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/velika-mostanica-lipovacka-219m2/5425644380494?kid=1"
+    },
+    {
+      "title": "Kuća na prodaju u centru Mladenovca na 4,5 ari",
+      "location": "Beograd | Opština Mladenovac | Mladenovac (mesto) | Njegoševa",
+      "kvadratura": "97 m2",
+      "price": "135.000 €",
+      "price_by_surface": "1.392 €/m2",
+      "publish_date": "30.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646700658",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-na-prodaju-u-centru-mladenovca-na-4-5-ar/5425646700658?kid=3"
+    },
+    {
+      "title": "Petosobna kuća, 99m², 5 ari - Obrenovac",
+      "location": "Beograd | Opština Obrenovac | Zabrežje | Ivana Bogdanovića Vanjke",
+      "kvadratura": "99 m2",
+      "price": "140.000 €",
+      "price_by_surface": "1.414 €/m2",
+      "publish_date": "16.01.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646203464",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/petosobna-kuca-99m-5-ari---obrenovac/5425646203464?kid=1"
+    }
+  ],
+  "price_changed": [
+    {
+      "id": "5425646343764",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodajem-kucu-73m2-zemun-novi-grad/5425646343764?kid=4",
+      "title": "Prodajem kucu 73m2, Zemun Novi Grad",
+      "location": "Beograd | Opština Zemun | Novi grad | Kaplarska",
+      "kvadratura": "73 m2",
+      "price": "90.000 €",
+      "old_price": "95.000 €"
+    }
+  ]
+}
