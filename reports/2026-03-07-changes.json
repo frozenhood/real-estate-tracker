@@ -1,0 +1,94 @@
+{
+  "total_ads": 299,
+  "added": [],
+  "removed": [
+    {
+      "title": "Kuća 58 m2 ,plac 7,19 ari Kosmaj,Rogača",
+      "location": "Beograd | Opština Sopot | Rogača | Kosmajska",
+      "kvadratura": "58 m2",
+      "price": "109.000 €",
+      "price_by_surface": "1.879 €/m2",
+      "publish_date": "04.02.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646283068",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-58-m2-plac-7-19-ari-kosmaj-rogaca/5425646283068?kid=1"
+    },
+    {
+      "title": "Kuća u blizini jezera ID#133346",
+      "location": "Beograd | Opština Barajevo | Barajevo (mesto) | Jovana Dučića",
+      "kvadratura": "78 m2",
+      "price": "98.000 €",
+      "price_by_surface": "1.256 €/m2",
+      "publish_date": "05.02.2026.",
+      "advertiser": "Agencija",
+      "id": "5425645728818",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-blizini-jezera-id133346/5425645728818?kid=1"
+    },
+    {
+      "title": "Mladenovac, porodična kuća ID#12540",
+      "location": "Beograd | Opština Mladenovac | Mladenovac selo | Ilije Petrovića",
+      "kvadratura": "165 m2",
+      "price": "110.000 €",
+      "price_by_surface": "667 €/m2",
+      "publish_date": "07.02.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646162198",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mladenovac-porodicna-kuca-id12540/5425646162198?kid=1"
+    },
+    {
+      "title": "Kuća, pašino brdo ID#103335",
+      "location": "Beograd | Opština Voždovac | Lekino brdo | Bačvanska",
+      "kvadratura": "62 m2",
+      "price": "139.000 €",
+      "price_by_surface": "2.242 €/m2",
+      "publish_date": "12.02.2026.",
+      "advertiser": "Agencija",
+      "id": "5425644073160",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-pasino-brdo-id103335/5425644073160?kid=1"
+    },
+    {
+      "title": "Grocka, kuća, blizina Dunava",
+      "location": "Beograd | Opština Grocka | Grocka (mesto) | Zavojice 3. prilaz",
+      "kvadratura": "160 m2",
+      "price": "50.000 €",
+      "price_by_surface": "312 €/m2",
+      "publish_date": "05.02.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425646537158",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/grocka-kuca-blizina-dunava/5425646537158?kid=1"
+    },
+    {
+      "title": "Prodaje se porodična kuća, Popović, Sopot",
+      "location": "Beograd | Opština Sopot | Popović",
+      "kvadratura": "180 m2",
+      "price": "135.000 €",
+      "price_by_surface": "750 €/m2",
+      "publish_date": "04.02.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646721438",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaje-se-porodicna-kuca-popovic-sopot/5425646721438?kid=1"
+    },
+    {
+      "title": "Stojnik Placevi,procitati opis.",
+      "location": "Beograd | Opština Sopot | Stojnik | Čeda Milosavljevića",
+      "kvadratura": "33 m2",
+      "price": "25.000 €",
+      "price_by_surface": "758 €/m2",
+      "publish_date": "04.02.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425646717020",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/stojnik-placevi-procitati-opis/5425646717020?kid=1"
+    }
+  ],
+  "price_changed": [
+    {
+      "id": "5425646131278",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-sa-placom-u-centu-ugrinovaca-id8432/5425646131278?kid=1",
+      "title": "Kuća sa placom u centu Ugrinovaca ID#8432",
+      "location": "Beograd | Opština Zemun | Ugrinovci | ",
+      "kvadratura": "200 m2",
+      "price": "87.000 €",
+      "old_price": "99.000 €"
+    }
+  ]
+}
