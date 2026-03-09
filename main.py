@@ -5,7 +5,7 @@ import os
 from datetime import datetime, timedelta
 import re
 
-FILTER_URL = "https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd?cena_d_to=140000&cena_d_unit=4"
+FILTER_URL = "https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd?cena_d_to=180000&cena_d_unit=4"
 DATA_DIR = "data"
 REPORT_DIR = "reports"
 HISTORY_FILE = "price-history.json"
