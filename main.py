@@ -1,4 +1,4 @@
-import cloudscraper
+from curl_cffi import requests
 from bs4 import BeautifulSoup
 import json
 import os
@@ -10,7 +10,7 @@ DATA_DIR = "data"
 REPORT_DIR = "reports"
 HISTORY_FILE = "price-history.json"
 
-scraper = cloudscraper.create_scraper()
+scraper = requests.Session(impersonate="chrome")
 
 def fetch_ads_from_page(page):
     url = f"{FILTER_URL}&page={page}"
