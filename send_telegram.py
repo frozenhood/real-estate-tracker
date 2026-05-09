@@ -33,7 +33,12 @@ def split_for_telegram(text, limit=CHUNK_LIMIT):
 def send_chunk(token, chat_id, text):
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     data = urllib.parse.urlencode(
-        {"chat_id": chat_id, "parse_mode": "HTML", "text": text}
+        {
+            "chat_id": chat_id,
+            "parse_mode": "HTML",
+            "text": text,
+            "disable_web_page_preview": "true",
+        }
     ).encode()
     try:
         with urllib.request.urlopen(url, data=data, timeout=30) as r:
