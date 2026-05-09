@@ -3,7 +3,12 @@ name: Track Real Estate Ads
 on:
   schedule:
     - cron: '0 13 * * *'  # Run at 13:00 UTC
-  workflow_dispatch:  
+  workflow_dispatch:
+    inputs:
+      resend_latest:
+        description: 'Resend the latest report to Telegram (skip scraping)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write  # Allow write access to repository
@@ -24,20 +29,21 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run script
+      - name: Scrape
+        if: ${{ inputs.resend_latest != true }}
         run: python main.py
 
-      - name: Send Telegram Notification
-        run: |
-          curl -s -X POST https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage \
-            -d chat_id=${{ secrets.TELEGRAM_CHAT_ID }} \
-            -d parse_mode=HTML \
-            --data-urlencode "text=$(cat telegram-message.txt)"
-        
       - name: Commit changes
+        if: ${{ inputs.resend_latest != true }}
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add data/ reports/ price-history.json
           git commit -m "Daily update $(date '+%Y-%m-%d')" || echo "No changes to commit"
           git push
+
+      - name: Send Telegram
+        run: python send_telegram.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
