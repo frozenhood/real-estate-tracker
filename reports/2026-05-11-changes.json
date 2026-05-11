@@ -1,0 +1,219 @@
+{
+  "total_ads": 481,
+  "added": [
+    {
+      "title": "Vikendica, Koraćica, 40m2",
+      "location": "Beograd | Opština Mladenovac | Koraćica | ",
+      "kvadratura": "40 m2",
+      "price": "75.000 €",
+      "price_by_surface": "1.875 €/m2",
+      "publish_date": "11.05.2026.",
+      "advertiser": "Agencija",
+      "id": "5425647133532",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vikendica-koracica-40m2/5425647133532?kid=1"
+    },
+    {
+      "title": "Kuća u centru Sopota , 6 ari placa , sama , uknjiž",
+      "location": "Beograd | Opština Sopot | Sopot (mesto) | Beogradska",
+      "kvadratura": "130 m2",
+      "price": "65.000 €",
+      "price_by_surface": "500 €/m2",
+      "publish_date": "11.05.2026.",
+      "advertiser": "Agencija",
+      "id": "5425647131803",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-centru-sopota-6-ari-placa-sama-uknjiz/5425647131803?kid=1"
+    },
+    {
+      "title": "Porodična kuća u Ralji",
+      "location": "Beograd | Opština Sopot | Ralja | Oslobodilaca Beograda",
+      "kvadratura": "128 m2",
+      "price": "137.000 €",
+      "price_by_surface": "1.070 €/m2",
+      "publish_date": "11.05.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425647132671",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/porodicna-kuca-u-ralji/5425647132671"
+    },
+    {
+      "title": "Kuća u Bečmenu 120m2",
+      "location": "Beograd | Opština Surčin | Bečmen | 11. oktobra",
+      "kvadratura": "120 m2",
+      "price": "115.000 €",
+      "price_by_surface": "958 €/m2",
+      "publish_date": "11.05.2026.",
+      "advertiser": "Agencija",
+      "id": "5425647133369",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-becmenu-120m2/5425647133369?kid=1"
+    },
+    {
+      "title": "Avala - Šuplja stena 215m2 na 4 a,uknjiženo",
+      "location": "Beograd | Opština Voždovac | Šuplja stena | Milovana Glišića",
+      "kvadratura": "215 m2",
+      "price": "139.000 €",
+      "price_by_surface": "647 €/m2",
+      "publish_date": "11.05.2026.",
+      "advertiser": "Agencija",
+      "id": "5425647130726",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/avala---suplja-stena-215m2-na-4-a-uknjizeno/5425647130726"
+    },
+    {
+      "title": "Uknjižen 4.0 stan od 86m2 u vertikali kuće",
+      "location": "Beograd | Opština Voždovac | Kumodraž | Stepenička",
+      "kvadratura": "86 m2",
+      "price": "155.000 €",
+      "price_by_surface": "1.802 €/m2",
+      "publish_date": "11.05.2026.",
+      "advertiser": "Agencija",
+      "id": "5425647132201",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/uknjizen-4-0-stan-od-86m2-u-vertikali-kuce/5425647132201?kid=1"
+    },
+    {
+      "title": "Prodaju se dve kuće - Dobra prilika - uk. 130 kvm",
+      "location": "Beograd | Opština Zvezdara | Veliki Mokri Lug | Jovijanova",
+      "kvadratura": "130 m2",
+      "price": "150.000 €",
+      "price_by_surface": "1.154 €/m2",
+      "publish_date": "10.05.2026.",
+      "advertiser": "Agencija",
+      "id": "5425647129967",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaju-se-dve-kuce---dobra-prilika---uk-130/5425647129967?kid=4"
+    },
+    {
+      "title": "SC Olimp, 3.0, 101(G)+35(T) na 1,35a, PR+PTK",
+      "location": "Beograd | Opština Zvezdara | Olimp",
+      "kvadratura": "101 m2",
+      "price": "180.000 €",
+      "price_by_surface": "1.782 €/m2",
+      "publish_date": "07.05.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646363338",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/sc-olimp-3-0-101g35t-na-1-35a-prptk/5425646363338?kid=1"
+    },
+    {
+      "title": "Splav kućica na Adi Ciganliji",
+      "location": "Beograd | Opština Čukarica | Ada Ciganlija | Lokacija broj 2",
+      "kvadratura": "20 m2",
+      "price": "50.000 €",
+      "price_by_surface": "2.500 €/m2",
+      "publish_date": "11.05.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425647132181",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/splav-kucica-na-adi-ciganliji/5425647132181"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Odlična porodična kuća u Jakovu",
+      "location": "Beograd | Opština Surčin | Jakovo",
+      "kvadratura": "81 m2",
+      "price": "128.000 €",
+      "price_by_surface": "1.580 €/m2",
+      "publish_date": "09.04.2026.",
+      "advertiser": "Agencija",
+      "id": "5425647010230",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/odlicna-porodicna-kuca-u-jakovu/5425647010230?kid=1"
+    },
+    {
+      "title": "Zemun,Banijska,61m2,3.0+plac #4459",
+      "location": "Beograd | Opština Zemun | Gornji grad | Banijska",
+      "kvadratura": "61 m2",
+      "price": "165.000 €",
+      "price_by_surface": "2.705 €/m2",
+      "publish_date": "09.04.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646840088",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/zemun-banijska-61m2-3-0plac-4459/5425646840088?kid=1"
+    },
+    {
+      "title": "Uknjižena kuća sa 16 ari placa, Dobanovci",
+      "location": "Beograd | Opština Surčin | Dobanovci",
+      "kvadratura": "160 m2",
+      "price": "180.000 €",
+      "price_by_surface": "1.125 €/m2",
+      "publish_date": "11.04.2026.",
+      "advertiser": "Agencija",
+      "id": "5425647016220",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/uknjizena-kuca-sa-16-ari-placa-dobanovci/5425647016220?kid=1"
+    },
+    {
+      "title": "Kuća na prodaju u Mladenovcu",
+      "location": "Beograd | Opština Mladenovac | Mladenovac (mesto) | Karađorđeva",
+      "kvadratura": "95 m2",
+      "price": "68.000 €",
+      "price_by_surface": "716 €/m2",
+      "publish_date": "24.04.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425647064849",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-na-prodaju-u-mladenovcu/5425647064849"
+    },
+    {
+      "title": "Kuća u Sremčici",
+      "location": "Beograd | Opština Čukarica | Sremčica | Porodice Jovanović",
+      "kvadratura": "237 m2",
+      "price": "167.000 €",
+      "price_by_surface": "705 €/m2",
+      "publish_date": "04.05.2026.",
+      "advertiser": "Agencija",
+      "id": "5425646942013",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-sremcici/5425646942013?kid=4"
+    },
+    {
+      "title": "Splav na prodaju – Ada Ciganlija",
+      "location": "Beograd | Opština Čukarica | Ada Ciganlija | Ada Ciganlija",
+      "kvadratura": "30 m2",
+      "price": "83.000 €",
+      "price_by_surface": "2.767 €/m2",
+      "publish_date": "10.04.2026.",
+      "advertiser": "Vlasnik",
+      "id": "5425646019643",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/splav-na-prodaju-ada-ciganlija/5425646019643?kid=1"
+    }
+  ],
+  "price_changed": [
+    {
+      "id": "5425647051188",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/nova-kuca-sa-dve-vertikale/5425647051188?kid=1",
+      "title": "Nova kuća sa dve vertikale",
+      "location": "Beograd | Opština Grocka | Pudarci | Narodnih heroja",
+      "kvadratura": "263 m2",
+      "price": "130.000 €",
+      "old_price": "140.000 €"
+    },
+    {
+      "id": "5425647006624",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/karaburma-32m2-1-77-ari-kuca-za-rusenje/5425647006624?kid=1",
+      "title": "Karaburma, 32m2, 1.77 ari, kuća za rušenje",
+      "location": "Beograd | Opština Palilula | Karaburma | ",
+      "kvadratura": "32 m2",
+      "price": "145.000 €",
+      "old_price": "160.000 €"
+    },
+    {
+      "id": "5425646683138",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/barajevo-blizu-centra-209m2-9a-plac-garaze/5425646683138?kid=1",
+      "title": "Barajevo, Blizu CENTRA, 209m2, 9a plac, Garaže",
+      "location": "Beograd | Opština Barajevo | Barajevo (mesto) | ",
+      "kvadratura": "209 m2",
+      "price": "159.000 €",
+      "old_price": "159.500 €"
+    },
+    {
+      "id": "5425647026159",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/karaburma-32m2-1-77-ari-kuca-za-rusenje/5425647026159?kid=3",
+      "title": "Karaburma, 32m2, 1.77 ari, kuća za rušenje",
+      "location": "Beograd | Opština Palilula | Karaburma | Čika Miše Đurića",
+      "kvadratura": "32 m2",
+      "price": "145.000 €",
+      "old_price": "160.000 €"
+    },
+    {
+      "id": "5425646629451",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/ritopek/5425646629451?kid=1",
+      "title": "Ritopek",
+      "location": "Beograd | Opština Grocka | Ritopek | Ritopečka",
+      "kvadratura": "161 m2",
+      "price": "53.000 €",
+      "old_price": "55.000 €"
+    }
+  ]
+}
