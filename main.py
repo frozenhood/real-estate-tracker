@@ -5,6 +5,8 @@ import os
 from datetime import datetime, timedelta
 import re
 
+from enrich_plot_sizes import enrich_ads
+
 FILTER_URL = "https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd?cena_d_to=180000&cena_d_unit=4"
 DATA_DIR = "data"
 REPORT_DIR = "reports"
@@ -174,6 +176,7 @@ def generate_report(current_ads, previous_ads):
                 "title": current_ad['title'],
                 "location": current_ad['location'],
                 "kvadratura": current_ad['kvadratura'],
+                "plot": current_ad.get('plot', ''),
                 "price": current_ad['price'],
                 "old_price": previous_ad['price']
             })
@@ -204,17 +207,21 @@ def generate_report(current_ads, previous_ads):
 def generate_telegram_message(new_ads, price_changes):
     lines = []
 
+    def plot_line(ad):
+        plot = ad.get('plot') or ''
+        return f"\n🌳 {plot}" if plot else ''
+
     if new_ads:
         lines.append("<b>🆕 New ads:</b>")
         for ad in new_ads:
-            lines.append(f"🏠 <b>{ad['title']}</b>\n📍 {ad['location']}\n📏 {ad.get('kvadratura', '')}\n💶 {ad['price']}\n🔗 <a href='{ad['url']}'>Open</a>\n")
+            lines.append(f"🏠 <b>{ad['title']}</b>\n📍 {ad['location']}\n📏 {ad.get('kvadratura', '')}{plot_line(ad)}\n💶 {ad['price']}\n🔗 <a href='{ad['url']}'>Open</a>\n")
 
     if price_changes:
         lines.append("<b>💰 Price changes:</b>")
         for ad_id, changes in price_changes.items():
             current = changes['current']
             old_price = changes['previous_price']
-            lines.append(f"🏠 <b>{current['title']}</b>\n📍 {current['location']}\n📏 {current.get('kvadratura', '')}\n💶 <s>{old_price}</s> → <b>{current['price']}</b>\n🔗 <a href='{current['url']}'>Open</a>\n")
+            lines.append(f"🏠 <b>{current['title']}</b>\n📍 {current['location']}\n📏 {current.get('kvadratura', '')}{plot_line(current)}\n💶 <s>{old_price}</s> → <b>{current['price']}</b>\n🔗 <a href='{current['url']}'>Open</a>\n")
 
     if not new_ads and not price_changes:
         lines.append("No new ads or price changes today.")
@@ -224,6 +231,9 @@ def generate_telegram_message(new_ads, price_changes):
 if __name__ == "__main__":
     current_ads = fetch_current_ads()
     current_ads_sorted = sort_ads_by_location_and_price(current_ads)
+    new_plot_fetches = enrich_ads(current_ads_sorted)
+    if new_plot_fetches:
+        print(f"Fetched plot size for {new_plot_fetches} new ad(s).")
     previous_ads = load_previous_snapshot()
     save_daily_snapshot(current_ads_sorted)
     report_file, report_data = generate_report(current_ads_sorted, previous_ads)
